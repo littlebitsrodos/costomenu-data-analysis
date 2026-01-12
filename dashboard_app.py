@@ -55,113 +55,143 @@ if df.empty:
     st.stop()
 
 # --- Sidebar Filters ------------------------------------------------------
+# --- Sidebar Filters ------------------------------------------------------
+# --- Sidebar Filters ------------------------------------------------------
 with st.sidebar:
-    st.header("Filters")
-    if "License status" in df.columns:
-        statuses = ["All"] + sorted(df["License status"].dropna().unique().tolist())
-        selected_status = st.selectbox("License Status", statuses)
-        if selected_status != "All":
-            df = df[df["License status"] == selected_status]
+    st.header("Filters & Segments")
+    
+    # 1. License Type Filter (Custom Order)
+    if "License" in df.columns:
+        # Define the exact order requested
+        desired_order = ["Beginner", "Professional", "Expert"]
+        # distinct_licenses = df["License"].dropna().unique().tolist() # Unused if we force list, but good for checking
+        
+        # Create list: All + Ordered items (if they exist in data) + any others
+        options = ["All"] + [x for x in desired_order if x in df["License"].unique()]
+        
+        # Add any others found in data but not in our list (just in case)
+        # others = [x for x in df["License"].dropna().unique() if x not in desired_order]
+        # options += sorted(others)
+        
+        selected_license = st.radio("Select Segment:", options) # User asked to "Rearrange", Radio is cleaner for 4 items
+        
+        if selected_license != "All":
+            df = df[df["License"] == selected_license]
 
     st.markdown("---")
-    st.caption("v1.8 - Educational Guides")
+    
+    # 2. Dynamic Segment Metrics
+    st.subheader("📊 Segment Snapshot")
+    
+    # Safe calculations
+    seg_users = len(df)
+    seg_rev = df["Total payments amount"].sum() if "Total payments amount" in df.columns else 0
+    seg_avg_rev = seg_rev / seg_users if seg_users > 0 else 0
+    seg_avg_recipes = df["Recipe count"].mean() if "Recipe count" in df.columns else 0
+    
+    st.metric("Users in Segment", f"{seg_users:,.0f}")
+    st.metric("Avg Revenue", f"€{seg_avg_rev:,.2f}")
+    st.metric("Avg Recipes", f"{seg_avg_recipes:,.1f}")
+    
+    st.markdown("---")
+    st.caption("v2.0 - Simplified Segmentation")
     
     # Download Button
     csv_data = df.to_csv(index=False).encode('utf-8')
     st.download_button(
-        label="📥 Download Data",
+        label="📥 Download Filtered Data",
         data=csv_data,
-        file_name="costo_menu_cleaned.csv",
+        file_name="costo_menu_filtered.csv",
         mime="text/csv"
     )
 
 # --- Main Dashboard -------------------------------------------------------
 st.title("📊 Costo.menu Executive Dashboard")
 
-# 1. KPIs
-col1, col2, col3, col4 = st.columns(4)
-with col1:
-    st.metric("Total Customers", f"{len(df):,.0f}")
-with col2:
-    total_rev = df["Total payments amount"].sum() if "Total payments amount" in df.columns else 0
-    st.metric("Total Revenue", f"€{total_rev:,.2f}")
-with col3:
-    avg_pay = df["Total payments amount"].mean() if "Total payments amount" in df.columns else 0
-    st.metric("Avg Payment", f"€{avg_pay:,.2f}")
-with col4:
-    active_30d = df[df["Days Since Last Activity"] <= 30].shape[0] if "Days Since Last Activity" in df.columns else 0
-    st.metric("Active Users (30d)", f"{active_30d:,.0f}", help="Users active in the last 30 days")
+# 1. User Health Pulse (Top Priority)
+if "Last activity date" in df.columns:
+    st.subheader("❤️ User Health Pulse")
+    
+    # Calculate Segments based on Date (ignoring the pre-filled 0s in numeric col)
+    # We use a fresh calculation to safely identify 'Unknown'
+    current_date = pd.Timestamp.now()
+    
+    # Function to bucket users
+    def get_status(date_val):
+        if pd.isna(date_val):
+            return "⚪ Unknown"
+        diff = (current_date - date_val).days
+        if diff <= 30:
+            return "🟢 Active (≤30d)"
+        elif diff <= 90:
+            return "🟡 At Risk (31-90d)"
+        else:
+            return "🔴 Dormant (>90d)"
 
-st.markdown("###")
-
-# 2. Charts Section
-if "Registration date" in df.columns:
-    st.subheader("User Growth & Value")
+    df["Health_Status"] = df["Last activity date"].apply(get_status)
     
-    # Prepare data
-    df_time = df.copy().sort_values("Registration date")
-    df_time["RegMonth"] = df_time["Registration date"].dt.to_period("M").astype(str)
-    df_time["RegYear"] = df_time["Registration date"].dt.year
+    # Group for Pie Chart
+    health_counts = df["Health_Status"].value_counts().reset_index()
+    health_counts.columns = ["Status", "Count"] # Rename for clarity
     
-    # Chart 1: Registrations (Full Width)
-    st.markdown("##### New Registrations per Month")
-    monthly_growth = df_time.groupby("RegMonth").size().reset_index(name="New Users")
-    fig_bar = px.bar(
-        monthly_growth, 
-        x="RegMonth", 
-        y="New Users",
-        labels={"RegMonth": "Month", "New Users": "Signups"},
-        color_discrete_sequence=[COLOR_SEQUENCE[0]]
-    )
-    fig_bar.update_layout(xaxis_tickangle=-45, margin=dict(t=10, b=0, l=0, r=0))
-    st.plotly_chart(fig_bar, use_container_width=True)
-
-    with st.expander("ℹ️ How to think about this graph"):
-        st.markdown("""
-        **What you are seeing:** The raw number of new users signing up for the platform each month.
-        
-        **How to interpret it:** 
-        *   **Rising bars:** Healthy top-of-funnel growth. Marketing is working.
-        *   **Flat/Declining bars:** We are stalling on acquisition. We need new channels.
-        *   *Note: This does not show retention, only new blood entering the system.*
-        """)
+    # Define colors mapping
+    color_map = {
+        "🟢 Active (≤30d)": "#2a9d8f",  # Green
+        "🟡 At Risk (31-90d)": "#e9c46a", # Yellow
+        "🔴 Dormant (>90d)": "#e76f51",   # Red
+        "⚪ Unknown": "#cfcfcf"          # Grey
+    }
     
-    st.markdown("###")
+    col_health_1, col_health_2 = st.columns([1, 1])
     
-    # Chart 2: Revenue by Cohort (Full Width)
-    if "Total payments amount" in df.columns:
-        st.markdown("##### Revenue by Registration Year (Cohort LTV)")
-        annual_revenue = df_time.groupby("RegYear")["Total payments amount"].sum().reset_index()
-        annual_revenue = annual_revenue.sort_values("RegYear")
-        
-        fig_rev = px.bar(
-            annual_revenue,
-            x="RegYear",
-            y="Total payments amount",
-            labels={"RegYear": "Year", "Total payments amount": "Total Revenue (€)"},
-            text="Total payments amount",
-            color_discrete_sequence=[COLOR_SEQUENCE[1]]
+    with col_health_1:
+         fig_health = px.pie(
+            health_counts,
+            values="Count",
+            names="Status",
+            color="Status",
+            color_discrete_map=color_map,
+            hole=0.4
         )
-        fig_rev.update_traces(texttemplate='€%{text:,.0f}', textposition='outside')
-        fig_rev.update_layout(xaxis=dict(tickmode='linear', type='category'), margin=dict(t=10, b=0, l=0, r=0))
-        st.plotly_chart(fig_rev, use_container_width=True)
+         fig_health.update_traces(textposition='inside', textinfo='percent+label')
+         fig_health.update_layout(showlegend=False, margin=dict(t=0, b=0, l=0, r=0))
+         st.plotly_chart(fig_health, use_container_width=True)
+
+    with col_health_2:
+        st.markdown("##### 🩺 Retention Strategy")
+        st.markdown("""
+        | Segment | Strategy |
+        | :--- | :--- |
+        | **🟢 Active** | **Protect.** These are your power users. Engage them personally. |
+        | **🟡 At Risk** | **Save.** They are drifting. Send a "New Feature" email *now*. |
+        | **🔴 Dormant** | **Wake Up.** Re-engagement campaign (or delete if costly). |
+        | **⚪ Unknown** | **Fix.** Fix the tracking bug. 50% of users are invisible. |
+        """)
         
-        # Tooltip / Definition for Cohort LTV
-        st.info("**Definition: Cohort LTV (Lifetime Value)** groups users by the year they joined and sums up *all* the money they have paid us since then.")
+        # Dynamic Insight based on the current filtered segment
+        unknown_users = df[df["Health_Status"] == "⚪ Unknown"]
+        unknown_count = len(unknown_users)
         
-        with st.expander("ℹ️ How to think about this graph"):
-            st.markdown("""
-            **What you are seeing:** The total financial value of each "Vintage" of customers.
-            
-            **How to interpret it:**
-            *   **Older bars should be huge:** Users from 2021 have had 5 years to pay us. If their bar is small, our long-term retention is poor.
-            *   **Newer bars will be smaller:** Users from 2026 just arrived.
-            *   **The Goal:** We want to see the 2025/2026 bars growing *faster* than the 2021 bars did at the same age (indicating better monetization).
-            """)
+        if unknown_count > 0:
+            limit = 0 # default
+            if "License" in unknown_users.columns:
+                # Determine the dominant license type in the unknown group to fail gracefully
+                dominant_license = unknown_users["License"].mode()[0] if not unknown_users["License"].empty else "Beginner"
+                
+                if dominant_license == "Beginner":
+                    st.info(f"🕵️ **Zombie Accounts:** The 'Unknown' slice contains **{unknown_count}** Beginners with no activity data. They are likely abandoned/inactive accounts.")
+                elif dominant_license == "Professional":
+                    st.warning(f"⚠️ **Blind Spot:** We have **{unknown_count}** Paying Professionals with no recent activity data. We can't tell if they are at risk of churning!")
+                elif dominant_license == "Expert":
+                    st.error(f"🚨 **Critical Blank:** **{unknown_count}** Expert users are paying top dollar but have no activity tracked. Verify manually immediately.")
+                else:
+                     st.info(f"ℹ️ **Data Gap:** {unknown_count} users have no activity tracking enabled.")
 
 st.markdown("###")
 
-# 3. Value Matrix (Scatter Plot)
+st.markdown("###")
+
+# 3. The Value Matrix: Usage vs. Revenue
 if "Recipe count" in df.columns and "Total payments amount" in df.columns:
     st.subheader("The Value Matrix: Usage vs. Revenue")
     
@@ -184,12 +214,63 @@ if "Recipe count" in df.columns and "Total payments amount" in df.columns:
         **What you are seeing:** Every dot is a single customer. 
         *   **X-Axis:** How much they use the tool (Recipe Count).
         *   **Y-Axis:** How much they pay us (Total Revenue).
+        *   **Goal:** Move people from Bottom-Right (Freeloaders) to Top-Right (Power Users).
+        """)
+
+st.markdown("###")
+
+# 4. KPIs (Moved Down)
+col1, col2 = st.columns(2)
+with col1:
+    st.metric("Total Customers", f"{len(df):,.0f}")
+with col2:
+    active_30d = df[df["Days Since Last Activity"] <= 30].shape[0] if "Days Since Last Activity" in df.columns else 0
+    st.metric("Active Users (30d)", f"{active_30d:,.0f}", help="Users active in the last 30 days")
+
+st.markdown("###")
+
+# 5. User Growth & Seasonality
+if "Registration date" in df.columns:
+    st.subheader("User Growth & Value")
+    
+    # Prepare data for Seasonality
+    df_season = df.copy()
+    df_season = df_season.dropna(subset=["Registration date"])
+    df_season["Month_Num"] = df_season["Registration date"].dt.month
+    df_season["Month_Name"] = df_season["Registration date"].dt.month_name()
+    df_season["Year"] = df_season["Registration date"].dt.year.astype(str)
+    
+    # Group by Year + Month
+    seasonality = df_season.groupby(["Year", "Month_Num", "Month_Name"]).size().reset_index(name="New Users")
+    seasonality = seasonality.sort_values(["Year", "Month_Num"])
+    
+    st.markdown("##### Seasonality: Registrations by Month (Year-over-Year)")
+    
+    fig_season = px.line(
+        seasonality,
+        x="Month_Name",
+        y="New Users",
+        color="Year",
+        markers=True,
+        labels={"Month_Name": "Month", "New Users": "New Signups", "Year": "Year"},
+        color_discrete_sequence=px.colors.qualitative.Prism  # Distinct colors for years
+    )
+    
+    # Fix X-axis order to be Jan-Dec
+    months_order = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    fig_season.update_xaxes(categoryorder="array", categoryarray=months_order)
+    fig_season.update_layout(margin=dict(t=10, b=0, l=0, r=0))
+    
+    st.plotly_chart(fig_season, use_container_width=True)
+
+    with st.expander("ℹ️ How to think about this graph"):
+        st.markdown("""
+        **What you are seeing:** Each line represents a year. The X-axis is January-December.
         
-        **The 4 Quadrants:**
-        *   **Top-Right (High Usage, High Pay):** 🌟 **Power Users.** Clone these people.
-        *   **Bottom-Right (High Usage, Low Pay):** 💸 **Freeloaders.** They love the product but don't pay. Upsell target #1.
-        *   **Top-Left (Low Usage, High Pay):** ⚠️ **At Risk.** They pay but don't use it. They will churn soon.
-        *   **Bottom-Left (Low Usage, Low Pay):** 👻 **Ghosts.** Irrelevant.
+        **How to interpret seasonality:**
+        *   **Spikes:** Do we always peak in a certain month? (e.g., Pre-Summer season?).
+        *   **Trend:** Is the 2025 line higher than the 2024 line? (Growth).
+        *   **Seasonality:** If every line dips in August, that's a seasonal pattern we can't fight.
         """)
 
 st.markdown("###")
@@ -273,22 +354,120 @@ if "License" in df.columns and "ExpirationDate" in df.columns:
 
 st.markdown("---")
 
-# 7. Strategic Questions for the CEO
-st.subheader("🤔 Critical Questions for the CEO")
-st.markdown("To ensure the long-term success of Costo.menu, ask yourself these hard questions:")
+# 7. Strategic Sandbox
+st.subheader("🧪 CEO Sandbox: What If?")
+st.markdown("Don't just guess. Simulate the impact of strategic decisions on your bottom line.")
 
-q1, q2 = st.columns(2)
+# Layout: Tabs for different scenarios
+tab1, tab2, tab3 = st.tabs(["💰 Revenue Simulator", "🗑️ Cost of Inaction", "👥 Funnel Reality"])
 
-with q1:
-    st.markdown("#### 1. Business vs. Hobby?")
-    st.info("We have high traffic but low revenue per user. Are we optimizing for vanity metrics (signups) or value (euros)?")
+# --- TAB 1: Revenue Simulator ---
+with tab1:
+    st.markdown("#### Scenario: What if we improved conversion?")
+    st.info("Currently, most users are on the Free tier. Small improvements in conversion yield massive returns.")
+    
+    col_sim_1, col_sim_2 = st.columns(2)
+    
+    with col_sim_1:
+        # Calculate current metrics
+        total_users = len(df)
+        paid_users = df[df["Total payments amount"] > 0].shape[0]
+        current_conversion = (paid_users / total_users) * 100 if total_users > 0 else 0
+        current_avg_revenue = df[df["Total payments amount"] > 0]["Total payments amount"].mean() if paid_users > 0 else 0
+        
+        st.metric(
+            "Current Conversion Rate", 
+            f"{current_conversion:.2f}%",
+            help="Formula: (Paying Users / Total Users) * 100"
+        )
+        st.metric(
+            "Avg Revenue per Paying User", 
+            f"€{current_avg_revenue:.2f}",
+            help="Formula: Total Revenue / Paying Users"
+        )
 
-    st.markdown("#### 2. The Conversion Wall")
-    st.info("Why do nearly 0% of users convert to 'Expert' after 1 year? Is the product gap too small, or the price gap too big?")
+    with col_sim_2:
+        # Interactive Sliders
+        target_conversion = st.slider(
+            "Target Conversion Rate (%)", 
+            min_value=0.0, 
+            max_value=10.0, 
+            value=float(round(current_conversion, 1) + 1.0),
+            step=0.1,
+            format="%.1f%%"
+        )
+        
+        # Calculation
+        projected_paid_users = int(total_users * (target_conversion / 100))
+        new_paid_users = projected_paid_users - paid_users
+        projected_revenue_gain = new_paid_users * current_avg_revenue
+        
+        if new_paid_users > 0:
+            st.success(f"🎯 **Result:** Converting **{new_paid_users}** more users generates an extra **€{projected_revenue_gain:,.2f}** per year.")
+        elif new_paid_users < 0:
+            st.error(f"📉 **Warning:** Dropping to {target_conversion}% means losing **{abs(new_paid_users)}** customers and **€{abs(projected_revenue_gain):,.2f}** in revenue.")
+        else:
+            st.info("No change in projected revenue.")
 
-with q2:
-    st.markdown("#### 3. The 'Free' Funnel")
-    st.info("Is the Free tier actually a funnel that leads to payment, or just a comfortable parking lot where users stay forever?")
+# --- TAB 2: Cost of Inaction ---
+with tab2:
+    st.markdown("#### Scenario: How much is 'Free' costing us?")
+    st.warning("Hosting, support, and storage aren't free. Inactive users are a hidden tax on the business.")
+    
+    col_cost_1, col_cost_2 = st.columns(2)
+    
+    with col_cost_1:
+        # Identify "Ghost" users (Active > 90 days ago or never active)
+        if "Days Since Last Activity" in df.columns:
+            ghost_users = df[df["Days Since Last Activity"] > 90].shape[0]
+        else:
+            ghost_users = 0
+            
+        st.metric("Ghost Users (>90 days inactive)", f"{ghost_users:,.0f}", delta_color="inverse")
+        
+    with col_cost_2:
+        cost_per_user = st.number_input(
+            "Est. Annual Cost per User (€) (Server + Support)", 
+            min_value=0.1, 
+            value=1.50, 
+            step=0.1,
+            format="%.2f"
+        )
+        
+        burn_rate = ghost_users * cost_per_user
+        st.error(f"🔥 **Burn Rate:** We are wasting **€{burn_rate:,.2f}/year** supporting inactive accounts.")
+        
+# --- TAB 3: Funnel Reality ---
+with tab3:
+    st.markdown("#### Scenario: The 'Real' Funnel")
+    st.markdown("See how your userbase shrinks when you filter out the noise.")
+    
+    start_metric = len(df)
+    
+    c1, c2, c3 = st.columns(3)
+    
+    with c1:
+        st.metric("1. Total Signups", f"{start_metric:,.0f}")
+        
+    with c2:
+        # Interactive Toggle
+        strict_mode = st.toggle("Strict Mode (Active in last 30 days)", value=True)
+        
+        if strict_mode:
+             if "Days Since Last Activity" in df.columns:
+                mid_metric = df[df["Days Since Last Activity"] <= 30].shape[0]
+                label = "2. Active Users (30d)"
+             else:
+                mid_metric = 0
+                label = "Last Activity Unknown"
+        else:
+            mid_metric = df[df["License status"] == "Professional"].shape[0] # Fallback proxy if toggle off
+            label = "2. Professional Licenses"
+            
+        drop_off = ((start_metric - mid_metric) / start_metric) * 100 if start_metric > 0 else 0
+        st.metric(label, f"{mid_metric:,.0f}", delta=f"-{drop_off:.1f}% Drop", delta_color="inverse")
 
-    st.markdown("#### 4. The 'Delete' Test")
-    st.info("If we deleted all non-paying accounts today, would anyone notice? If not, why are we paying to host them?")
+    with c3:
+        end_metric = df[df["Total payments amount"] > 0].shape[0]
+        final_conv = ((end_metric / start_metric) * 100) if start_metric > 0 else 0
+        st.metric("3. Paying Customers", f"{end_metric}", delta=f"{final_conv:.2f}% Conversion")
