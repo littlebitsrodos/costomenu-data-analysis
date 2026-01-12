@@ -130,9 +130,35 @@ if "Last activity date" in df.columns:
 
     df["Health_Status"] = df["Last activity date"].apply(get_status)
     
+    # Determine context for custom advice (moved up for use in Chart + Table)
+    current_selection = "All"
+    if "License" in df.columns and len(df["License"].unique()) == 1:
+            current_selection = df["License"].unique()[0]
+
     # Group for Pie Chart
     health_counts = df["Health_Status"].value_counts().reset_index()
     health_counts.columns = ["Status", "Count"] # Rename for clarity
+    
+    # Custom Hover Text Logic
+    def get_hover_desc(status):
+        if "Unknown" in status:
+            if current_selection == "Beginner":
+                return "<b>Why Unknown?</b><br>No 'Last Activity' date found.<br>Likely abandoned account."
+            elif current_selection == "Professional":
+                 return "<b>Why Unknown?</b><br>No 'Last Activity' date found.<br>⚠️ Paying user with no tracking!"
+            elif current_selection == "Expert":
+                return "<b>Why Unknown?</b><br>No 'Last Activity' date found.<br>🚨 Critical data gap for VIP."
+            else:
+                return "<b>Why Unknown?</b><br>Value is 'NaN'.<br>Tracking pixel didn't fire."
+        elif "Active" in status:
+             return "<b>Status:</b> Active in last 30 days."
+        elif "At Risk" in status:
+             return "<b>Status:</b> No activity for 31-90 days."
+        elif "Dormant" in status:
+             return "<b>Status:</b> Inactive for >90 days."
+        return ""
+
+    health_counts["Description"] = health_counts["Status"].apply(get_hover_desc)
     
     # Define colors mapping
     color_map = {
@@ -151,9 +177,14 @@ if "Last activity date" in df.columns:
             names="Status",
             color="Status",
             color_discrete_map=color_map,
-            hole=0.4
+            hole=0.4,
+            custom_data=["Description"]
         )
-         fig_health.update_traces(textposition='inside', textinfo='percent+label')
+         fig_health.update_traces(
+             textposition='inside', 
+             textinfo='percent+label',
+             hovertemplate="<b>%{label}</b><br>Count: %{value}<br><br>%{customdata[0]}<extra></extra>"
+         )
          fig_health.update_layout(showlegend=False, margin=dict(t=0, b=0, l=0, r=0))
          st.plotly_chart(fig_health, use_container_width=True)
 
@@ -168,10 +199,7 @@ if "Last activity date" in df.columns:
         # Dynamic 'Unknown' Strategy
         strat_unknown = "**Fix.** Fix the tracking bug. Half your users are invisible." # Default
         
-        # Determine context for custom "Unknown" advice
-        current_selection = "All"
-        if "License" in df.columns and len(df["License"].unique()) == 1:
-             current_selection = df["License"].unique()[0]
+        # (Already calculated above)
              
         if current_selection == "Beginner":
             strat_unknown = "**Clean.** Likely abandoned accounts. Safe to archive/delete?"
