@@ -259,14 +259,13 @@ if "License" in df.columns and "ExpirationDate" in df.columns:
     
     st.caption(f"Found {len(ex_kmn)} users matching these criteria.")
     
-    kmn_cols = ["Fullname", "Email", "Company", "Last activity date", "Days Since Last Activity", "Total payments amount"]
+    kmn_cols = ["Fullname", "Email", "Company", "Last activity date", "Recipe count", "Total payments amount"]
     kmn_actual = [c for c in kmn_cols if c in ex_kmn.columns]
     
     st.dataframe(
         ex_kmn[kmn_actual].style.format({
             "Last activity date": lambda x: x.strftime("%Y-%m-%d") if pd.notnull(x) else "",
-            "Total payments amount": "€{:.2f}",
-            "Days Since Last Activity": "{:.0f}"
+            "Total payments amount": "€{:.2f}"
         }),
         use_container_width=True,
         height=300
