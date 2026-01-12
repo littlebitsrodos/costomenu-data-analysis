@@ -159,13 +159,34 @@ if "Last activity date" in df.columns:
 
     with col_health_2:
         st.markdown("##### 🩺 Retention Strategy")
-        st.markdown("""
+        # Dynamic Strategy Table based on Filter
+        # Default Strategies
+        strat_active = "**Protect.** These are your power users. Engage them personally."
+        strat_risk = "**Save.** They are drifting. Send a 'New Feature' email *now*."
+        strat_dormant = "**Wake Up.** Re-engagement campaign."
+        
+        # Dynamic 'Unknown' Strategy
+        strat_unknown = "**Fix.** Fix the tracking bug. Half your users are invisible." # Default
+        
+        # Determine context for custom "Unknown" advice
+        current_selection = "All"
+        if "License" in df.columns and len(df["License"].unique()) == 1:
+             current_selection = df["License"].unique()[0]
+             
+        if current_selection == "Beginner":
+            strat_unknown = "**Clean.** Likely abandoned accounts. Safe to archive/delete?"
+        elif current_selection == "Professional":
+            strat_unknown = "**Investigate.** Support Risk! Paying users with no data. Reach out."
+        elif current_selection == "Expert":
+            strat_unknown = "**Concierge.** Call them. High-value blind spot."
+
+        st.markdown(f"""
         | Segment | Strategy |
         | :--- | :--- |
-        | **🟢 Active** | **Protect.** These are your power users. Engage them personally. |
-        | **🟡 At Risk** | **Save.** They are drifting. Send a "New Feature" email *now*. |
-        | **🔴 Dormant** | **Wake Up.** Re-engagement campaign (or delete if costly). |
-        | **⚪ Unknown** | **Fix.** Fix the tracking bug. 50% of users are invisible. |
+        | **🟢 Active** | {strat_active} |
+        | **🟡 At Risk** | {strat_risk} |
+        | **🔴 Dormant** | {strat_dormant} |
+        | **⚪ Unknown** | {strat_unknown} |
         """)
         
         # Dynamic Insight based on the current filtered segment
@@ -173,19 +194,14 @@ if "Last activity date" in df.columns:
         unknown_count = len(unknown_users)
         
         if unknown_count > 0:
-            limit = 0 # default
-            if "License" in unknown_users.columns:
-                # Determine the dominant license type in the unknown group to fail gracefully
-                dominant_license = unknown_users["License"].mode()[0] if not unknown_users["License"].empty else "Beginner"
-                
-                if dominant_license == "Beginner":
-                    st.info(f"🕵️ **Zombie Accounts:** The 'Unknown' slice contains **{unknown_count}** Beginners with no activity data. They are likely abandoned/inactive accounts.")
-                elif dominant_license == "Professional":
-                    st.warning(f"⚠️ **Blind Spot:** We have **{unknown_count}** Paying Professionals with no recent activity data. We can't tell if they are at risk of churning!")
-                elif dominant_license == "Expert":
-                    st.error(f"🚨 **Critical Blank:** **{unknown_count}** Expert users are paying top dollar but have no activity tracked. Verify manually immediately.")
-                else:
-                     st.info(f"ℹ️ **Data Gap:** {unknown_count} users have no activity tracking enabled.")
+            if current_selection == "Beginner":
+                st.info(f"🕵️ **Zombie Accounts:** The 'Unknown' slice contains **{unknown_count}** Beginners with no activity data. They are likely abandoned/inactive accounts.")
+            elif current_selection == "Professional":
+                 st.warning(f"⚠️ **Blind Spot:** We have **{unknown_count}** Paying Professionals with no recent activity data. We can't tell if they are at risk of churning!")
+            elif current_selection == "Expert":
+                st.error(f"🚨 **Critical Blank:** **{unknown_count}** Expert users are paying top dollar but have no activity tracked. Verify manually immediately.")
+            else:
+                 st.info(f"ℹ️ **Data Gap:** {unknown_count} users have no activity tracking enabled.")
 
 st.markdown("###")
 
