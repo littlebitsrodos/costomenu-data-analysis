@@ -223,10 +223,11 @@ st.markdown("###")
 
 # 5. Deep Dive: TOP REVENUE CUSTOMERS
 if "Total payments amount" in df.columns:
-    st.subheader("💎 VIP Customer Deep Dive")
-    st.markdown("Explore your highest value customers to identify upsell opportunities.")
+    st.subheader("💎 VIP Customer Deep Dive (> €200)")
+    st.markdown("Customers with total lifetime payments exceeding €200.")
     
-    top_n = df.nlargest(50, "Total payments amount").reset_index(drop=True)
+    # Filter for > 200 EUR
+    top_n = df[df["Total payments amount"] > 200].sort_values("Total payments amount", ascending=False).reset_index(drop=True)
     top_n.index += 1  # Start ranking from 1
     
     display_cols = ["Fullname", "Email", "Company", "Total payments amount", "License", "License status", "Last activity date", "Menus count", "Recipe count"]
