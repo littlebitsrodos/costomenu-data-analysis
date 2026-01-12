@@ -202,9 +202,9 @@ min_col1, min_col2, min_col3 = st.columns(3)
 
 with min_col1:
     st.error("🚨 Insight: The 'Free Rider' Disconnect")
-    st.caption("**Observation:** 4,200+ Active Licenses vs. only €64k Total Revenue.")
-    st.caption("**Implication:** High support/server costs for non-paying users.")
-    st.info("**Action:** Segment CRM immediately. Separate 'Active & Paying' from 'Active & Free'.")
+    st.caption("**Observation:** 4,200+ Active Licenses. Support is given via Phone, Crisp, Email & In-App.")
+    st.caption("**Risk:** We are spending resources across 4 channels on users who pay €0.")
+    st.info("**Action:** Restrict 'Phone/Crisp' support to Paid tiers. Automate the rest.")
 
 with min_col2:
     st.warning("💰 Insight: 'Expert' Tier Drivers")
