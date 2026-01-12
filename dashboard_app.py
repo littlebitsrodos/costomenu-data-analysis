@@ -226,7 +226,8 @@ if "Total payments amount" in df.columns:
     st.subheader("💎 VIP Customer Deep Dive")
     st.markdown("Explore your highest value customers to identify upsell opportunities.")
     
-    top_n = df.nlargest(50, "Total payments amount")
+    top_n = df.nlargest(50, "Total payments amount").reset_index(drop=True)
+    top_n.index += 1  # Start ranking from 1
     
     display_cols = ["Fullname", "Email", "Company", "Total payments amount", "License", "License status", "Last activity date", "Menus count", "Recipe count"]
     actual_cols = [c for c in display_cols if c in df.columns]
