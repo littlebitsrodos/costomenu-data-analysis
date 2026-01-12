@@ -244,7 +244,37 @@ if "Total payments amount" in df.columns:
 
 st.markdown("---")
 
-# 6. Strategic Questions for the CEO
+# 6. ex-KMN Users (Professional + No Expiration)
+if "License" in df.columns and "ExpirationDate" in df.columns:
+    st.subheader("👻 ex-KMN Users")
+    st.markdown("**Criteria:** License = 'Professional' AND Expiration Date is Missing.")
+    
+    ex_kmn = df[
+        (df["License"] == "Professional") & 
+        (df["ExpirationDate"].isna())
+    ].copy()
+    
+    if "Last activity date" in ex_kmn.columns:
+        ex_kmn = ex_kmn.sort_values("Last activity date", ascending=False)
+    
+    st.caption(f"Found {len(ex_kmn)} users matching these criteria.")
+    
+    kmn_cols = ["Fullname", "Email", "Company", "Last activity date", "Days Since Last Activity", "Total payments amount"]
+    kmn_actual = [c for c in kmn_cols if c in ex_kmn.columns]
+    
+    st.dataframe(
+        ex_kmn[kmn_actual].style.format({
+            "Last activity date": lambda x: x.strftime("%Y-%m-%d") if pd.notnull(x) else "",
+            "Total payments amount": "€{:.2f}",
+            "Days Since Last Activity": "{:.0f}"
+        }),
+        use_container_width=True,
+        height=300
+    )
+
+st.markdown("---")
+
+# 7. Strategic Questions for the CEO
 st.subheader("🤔 Critical Questions for the CEO")
 st.markdown("To ensure the long-term success of Costo.menu, ask yourself these hard questions:")
 
