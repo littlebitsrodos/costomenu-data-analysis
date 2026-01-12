@@ -1,7 +1,7 @@
 # dashboard_app.py
 """
 Costo.menu CEO Dashboard
-Refined version v1.5 (Simplified + Cohort Revenue + CEO Questions).
+Refined version v1.8 (Added Explanatory Text & Guides).
 """
 
 import streamlit as st
@@ -64,7 +64,7 @@ with st.sidebar:
             df = df[df["License status"] == selected_status]
 
     st.markdown("---")
-    st.caption("v1.5 - CEO Strategy Edition")
+    st.caption("v1.8 - Educational Guides")
     
     # Download Button
     csv_data = df.to_csv(index=False).encode('utf-8')
@@ -94,53 +94,107 @@ with col4:
 
 st.markdown("###")
 
-# 2. Charts Row: REGISTRATION GROWTH & REVENUE BY YEAR (COHORT)
+# 2. Charts Section
 if "Registration date" in df.columns:
-    st.subheader("User Growth & Cohort Value")
+    st.subheader("User Growth & Value")
     
     # Prepare data
     df_time = df.copy().sort_values("Registration date")
     df_time["RegMonth"] = df_time["Registration date"].dt.to_period("M").astype(str)
     df_time["RegYear"] = df_time["Registration date"].dt.year
     
-    c1, c2 = st.columns([2, 1])
-    
-    with c1:
-        st.markdown("**New Registrations per Month**")
-        monthly_growth = df_time.groupby("RegMonth").size().reset_index(name="New Users")
-        fig_bar = px.bar(
-            monthly_growth, 
-            x="RegMonth", 
-            y="New Users",
-            labels={"RegMonth": "Month", "New Users": "Signups"},
-            color_discrete_sequence=[COLOR_SEQUENCE[0]]
-        )
-        fig_bar.update_layout(xaxis_tickangle=-45, margin=dict(t=10, b=0, l=0, r=0))
-        st.plotly_chart(fig_bar, use_container_width=True)
+    # Chart 1: Registrations (Full Width)
+    st.markdown("##### New Registrations per Month")
+    monthly_growth = df_time.groupby("RegMonth").size().reset_index(name="New Users")
+    fig_bar = px.bar(
+        monthly_growth, 
+        x="RegMonth", 
+        y="New Users",
+        labels={"RegMonth": "Month", "New Users": "Signups"},
+        color_discrete_sequence=[COLOR_SEQUENCE[0]]
+    )
+    fig_bar.update_layout(xaxis_tickangle=-45, margin=dict(t=10, b=0, l=0, r=0))
+    st.plotly_chart(fig_bar, use_container_width=True)
+
+    with st.expander("ℹ️ How to think about this graph"):
+        st.markdown("""
+        **What you are seeing:** The raw number of new users signing up for the platform each month.
         
-    with c2:
-        if "Total payments amount" in df.columns:
-            st.markdown("**Revenue by Registration Year (Cohort LTV)**")
-            annual_revenue = df_time.groupby("RegYear")["Total payments amount"].sum().reset_index()
-            # Sort by Year just in case
-            annual_revenue = annual_revenue.sort_values("RegYear")
+        **How to interpret it:** 
+        *   **Rising bars:** Healthy top-of-funnel growth. Marketing is working.
+        *   **Flat/Declining bars:** We are stalling on acquisition. We need new channels.
+        *   *Note: This does not show retention, only new blood entering the system.*
+        """)
+    
+    st.markdown("###")
+    
+    # Chart 2: Revenue by Cohort (Full Width)
+    if "Total payments amount" in df.columns:
+        st.markdown("##### Revenue by Registration Year (Cohort LTV)")
+        annual_revenue = df_time.groupby("RegYear")["Total payments amount"].sum().reset_index()
+        annual_revenue = annual_revenue.sort_values("RegYear")
+        
+        fig_rev = px.bar(
+            annual_revenue,
+            x="RegYear",
+            y="Total payments amount",
+            labels={"RegYear": "Year", "Total payments amount": "Total Revenue (€)"},
+            text="Total payments amount",
+            color_discrete_sequence=[COLOR_SEQUENCE[1]]
+        )
+        fig_rev.update_traces(texttemplate='€%{text:,.0f}', textposition='outside')
+        fig_rev.update_layout(xaxis=dict(tickmode='linear', type='category'), margin=dict(t=10, b=0, l=0, r=0))
+        st.plotly_chart(fig_rev, use_container_width=True)
+        
+        # Tooltip / Definition for Cohort LTV
+        st.info("**Definition: Cohort LTV (Lifetime Value)** groups users by the year they joined and sums up *all* the money they have paid us since then.")
+        
+        with st.expander("ℹ️ How to think about this graph"):
+            st.markdown("""
+            **What you are seeing:** The total financial value of each "Vintage" of customers.
             
-            fig_rev = px.bar(
-                annual_revenue,
-                x="RegYear",
-                y="Total payments amount",
-                labels={"RegYear": "Year", "Total payments amount": "Total Revenue (€)"},
-                text="Total payments amount",
-                color_discrete_sequence=[COLOR_SEQUENCE[1]]
-            )
-            fig_rev.update_traces(texttemplate='€%{text:,.0f}', textposition='outside')
-            fig_rev.update_layout(xaxis=dict(tickmode='linear'), margin=dict(t=10, b=0, l=0, r=0))
-            st.plotly_chart(fig_rev, use_container_width=True)
-            st.caption("Total lifetime revenue generated by users who registered in that year.")
+            **How to interpret it:**
+            *   **Older bars should be huge:** Users from 2021 have had 5 years to pay us. If their bar is small, our long-term retention is poor.
+            *   **Newer bars will be smaller:** Users from 2026 just arrived.
+            *   **The Goal:** We want to see the 2025/2026 bars growing *faster* than the 2021 bars did at the same age (indicating better monetization).
+            """)
 
 st.markdown("###")
 
-# 3. Strategic Insights & Actions
+# 3. Value Matrix (Scatter Plot)
+if "Recipe count" in df.columns and "Total payments amount" in df.columns:
+    st.subheader("The Value Matrix: Usage vs. Revenue")
+    
+    fig_scatter = px.scatter(
+        df, 
+        x="Recipe count", 
+        y="Total payments amount",
+        color="License status" if "License status" in df.columns else None,
+        hover_data=["Fullname", "Email", "Company"],
+        labels={"Recipe count": "Usage (Recipe Count)", "Total payments amount": "Total Revenue (€)"},
+        color_discrete_sequence=COLOR_SEQUENCE,
+        opacity=0.6,
+        height=500
+    )
+    fig_scatter.update_traces(marker=dict(size=8))
+    st.plotly_chart(fig_scatter, use_container_width=True)
+    
+    with st.expander("ℹ️ How to think about this graph"):
+        st.markdown("""
+        **What you are seeing:** Every dot is a single customer. 
+        *   **X-Axis:** How much they use the tool (Recipe Count).
+        *   **Y-Axis:** How much they pay us (Total Revenue).
+        
+        **The 4 Quadrants:**
+        *   **Top-Right (High Usage, High Pay):** 🌟 **Power Users.** Clone these people.
+        *   **Bottom-Right (High Usage, Low Pay):** 💸 **Freeloaders.** They love the product but don't pay. Upsell target #1.
+        *   **Top-Left (Low Usage, High Pay):** ⚠️ **At Risk.** They pay but don't use it. They will churn soon.
+        *   **Bottom-Left (Low Usage, Low Pay):** 👻 **Ghosts.** Irrelevant.
+        """)
+
+st.markdown("###")
+
+# 4. Strategic Insights & Actions
 st.markdown("---")
 st.subheader("🚀 Strategic Insights & Recommended Actions")
 
@@ -164,9 +218,10 @@ with min_col3:
     st.caption("**Implication:** True retention likely lower than dashboard suggests.")
     st.info("**Action:** Tech Team P0 Fix: Implement reliable `last_login_timestamp` tracking.")
 
+st.markdown("---")
 st.markdown("###")
 
-# 4. Deep Dive: TOP REVENUE CUSTOMERS
+# 5. Deep Dive: TOP REVENUE CUSTOMERS
 if "Total payments amount" in df.columns:
     st.subheader("💎 VIP Customer Deep Dive")
     st.markdown("Explore your highest value customers to identify upsell opportunities.")
@@ -187,7 +242,7 @@ if "Total payments amount" in df.columns:
 
 st.markdown("---")
 
-# 5. Strategic Questions for the CEO
+# 6. Strategic Questions for the CEO
 st.subheader("🤔 Critical Questions for the CEO")
 st.markdown("To ensure the long-term success of Costo.menu, ask yourself these hard questions:")
 
