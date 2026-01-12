@@ -228,7 +228,7 @@ if "Total payments amount" in df.columns:
     
     top_n = df.nlargest(50, "Total payments amount")
     
-    display_cols = ["Fullname", "Email", "Company", "Total payments amount", "License", "Last activity date", "Menus count"]
+    display_cols = ["Fullname", "Email", "Company", "Total payments amount", "License", "Last activity date", "Menus count", "Recipe count"]
     actual_cols = [c for c in display_cols if c in df.columns]
     
     st.dataframe(
