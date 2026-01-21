@@ -7,3 +7,4 @@ crisp-api
 python-dotenv
 
 textblob
+pytz

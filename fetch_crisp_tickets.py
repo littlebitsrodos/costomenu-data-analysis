@@ -1,7 +1,9 @@
 import os
 import json
 import time
-from datetime import datetime
+import argparse
+from datetime import datetime, timedelta
+from dateutil import parser
 from crisp_api import Crisp
 from dotenv import load_dotenv
 
@@ -12,120 +14,173 @@ PLUGIN_IDENTIFIER = os.getenv("CRISP_PLUGIN_IDENTIFIER")
 PLUGIN_KEY = os.getenv("CRISP_PLUGIN_KEY")
 WEBSITE_ID = os.getenv("CRISP_WEBSITE_ID")
 
-# Output filename
-OUTPUT_FILE = f"crisp_tickets_export_{datetime.now().strftime('%Y%m%d')}.json"
+# Main Database File
+DB_FILE = "crisp_full_backup.json"
+
+def get_latest_timestamp(data):
+    """Finds the most recent 'updated_at' or 'created_at' in the existing dataset."""
+    if not data:
+        return None
+    
+    timestamps = []
+    for t in data:
+        # Crisp timestamps are usually in milliseconds
+        ts = t.get("updated_at") or t.get("created_at")
+        if ts:
+            timestamps.append(ts)
+            
+    if timestamps:
+        return max(timestamps)
+    return None
 
 def main():
-    print("--- 🚀 Starting Crisp Ticket Export Agent ---")
+    print("--- 🚀 Smart Crisp Ticket Export Agent ---")
 
+    # 1. Parse Arguments
+    parser_arg = argparse.ArgumentParser(description="Fetch Crisp conversations incrementally.")
+    parser_arg.add_argument("--full", action="store_true", help="Force a full re-fetch of all data.")
+    args = parser_arg.parse_args()
+
+    # 2. Check Credentials
     if not all([PLUGIN_IDENTIFIER, PLUGIN_KEY, WEBSITE_ID]):
         print("❌ Error: Missing credentials in .env file.")
-        print("Please ensure CRISP_PLUGIN_IDENTIFIER, CRISP_PLUGIN_KEY, and CRISP_WEBSITE_ID are set.")
         exit(1)
-    
-    # Load existing data to avoid re-fetching detailed messages (Save Quota!)
-    existing_tickets = {}
-    if os.path.exists(OUTPUT_FILE):
+
+    # 3. Load Existing Data (The "Database")
+    known_sessions = {}
+    master_data = []
+    last_known_ts = 0
+
+    if os.path.exists(DB_FILE):
         try:
-            with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
-                old_data = json.load(f)
-                for t in old_data:
-                    existing_tickets[t["session_id"]] = t
-            print(f"ℹ️ Loaded {len(existing_tickets)} existing tickets. Will skip re-fetching their messages.")
-        except Exception:
-            print("Could not read active file, starting fresh.")
-
-    # 1. Authenticate
-    client = Crisp()
-    client.set_tier("plugin") 
-    client.authenticate(PLUGIN_IDENTIFIER, PLUGIN_KEY)
-    
-    all_tickets = []
-    # If we have a lot of data, maybe we want to search deeper, but let's stick to page 1 start 
-    # to catch any new activity too.
-    page_number = 1 
-    has_more = True
-
-    print(f"🔒 Authenticated as Plugin. Target Website: {WEBSITE_ID}")
-
-    # 2. Iterate through Conversation Pages
-    while has_more:
-        print(f"📄 Fetching conversation list page {page_number}...")
-        
-        try:
-            # List conversations (20 per page default)
-            conversations = client.website.list_conversations(WEBSITE_ID, page_number)
+            with open(DB_FILE, "r", encoding="utf-8") as f:
+                master_data = json.load(f)
+                for t in master_data:
+                    known_sessions[t["session_id"]] = t
             
+            print(f"📂 Loaded database: {len(master_data)} tickets.")
+            last_known_ts = get_latest_timestamp(master_data) or 0
+            
+            if last_known_ts:
+                last_date = datetime.fromtimestamp(last_known_ts / 1000)
+                print(f"🕒 Last data point: {last_date}")
+        except Exception as e:
+            print(f"⚠️ Error reading DB: {e}. Starting fresh.")
+    else:
+        print("📂 No existing database found. Starting fresh.")
+
+    # Override if --full flag is used
+    if args.full:
+        print("⚠️ Full fetch requested. Ignoring history.")
+        last_known_ts = 0
+
+    # 4. Authenticate
+    client = Crisp()
+    client.set_tier("plugin")
+    client.authenticate(PLUGIN_IDENTIFIER, PLUGIN_KEY)
+
+    # 5. Fetch Loop
+    new_tickets = []
+    page_number = 1
+    has_more = True
+    stop_fetching = False
+
+    print(f"🔄 Fetching conversations updated after: {datetime.fromtimestamp(last_known_ts/1000) if last_known_ts else 'The Beginning'}")
+
+    while has_more and not stop_fetching:
+        try:
+            print(f"  📄 Page {page_number}...", end="\r")
+            
+            # 20 conversastions per page, usually sorted by updated_at DESC
+            conversations = client.website.list_conversations(WEBSITE_ID, page_number)
+
             if not conversations:
-                print("✅ No more conversations found. Stopping pagination.")
-                has_more = False
                 break
-                
-            # 3. Process each conversation
+
             for conv in conversations:
                 session_id = conv["session_id"]
+                updated_at = conv.get("updated_at", 0)
+
+                # CHECK: Is this ticket older than our knowledge?
+                # If we encounter a ticket that hasn't changed since our last sync, we can theoretically stop.
+                # However, Crisp sort order might slightly vary, so let's be safe:
+                # We stop if we see a ticket that is significantly older (e.g., 24h older than cut-off) 
+                # OR if we hit a known session ID that has the exact same updated_at?
+                # Simpler approach for reliability:
+                # If updated_at < last_known_ts, we have reached the "old" zone.
                 
-                # Check if we already have the FULL ticket (with messages)
-                if session_id in existing_tickets and existing_tickets[session_id].get("messages"):
-                    # Use cached version
-                    # print(f"  ↪️ Skipping {session_id} (Already have it)")
-                    all_tickets.append(existing_tickets[session_id])
-                    continue
+                if updated_at < last_known_ts and not args.full:
+                    # We found a conversation older than our DB's latest state.
+                    # Since results are ordered by date, everything subsequent is also old.
+                    stop_fetching = True
+                    # continue # Don't fetch this one
+                    # Actually, let's break strictly.
+                    break
                 
-                # Metadata for the ticket
+                # If it's new matching our timeframe OR it's a known ticket that got updated
+                if session_id in known_sessions:
+                    # Check if it actually changed
+                    prev_update = known_sessions[session_id].get("updated_at", 0)
+                    if updated_at <= prev_update and not args.full:
+                        continue # Skip exact duplicate
+
+                # FETCH DETAILS
+                # We only perform the deep fetch (messages) for new/updated sessions
+                # print(f"    New/Updated: {session_id}")
+                
                 ticket_data = {
                     "session_id": session_id,
                     "meta": conv.get("meta", {}),
                     "status": conv.get("status", "unknown"),
                     "created_at": conv.get("created_at"),
-                    "active": conv.get("active", {}),  
-                    "messages": [] 
+                    "updated_at": conv.get("updated_at"),
+                    "active": conv.get("active", {}),
+                    "messages": []
                 }
-                
-                # 4. Deep Fetch: Get messages for this session
+
                 try:
-                    messages = client.website.get_messages_in_conversation(WEBSITE_ID, session_id, {})
-                    ticket_data["messages"] = messages
-                    # Rate limit sleep only when we make a request
-                    time.sleep(2.0) 
+                    msgs = client.website.get_messages_in_conversation(WEBSITE_ID, session_id, {})
+                    ticket_data["messages"] = msgs
+                    time.sleep(1.0) # Rate limit courtesy
                 except Exception as e:
-                    print(f"⚠️ Error fetching messages for {session_id}: {e}")
-                    # If rate limited, we should probably stop and save
-                    if "429" in str(e) or "quota" in str(e).lower():
-                        raise e 
+                    print(f"    ⚠️ Failed getting messages for {session_id}: {e}")
                 
-                all_tickets.append(ticket_data)
-            
+                new_tickets.append(ticket_data)
+
+            if stop_fetching:
+                print(f"\n✅ Reached known data layer (Page {page_number}). Stopping.")
+                break
+
             page_number += 1
-            # Sleep between pages
             time.sleep(1.0)
-            
+
         except Exception as e:
-            print(f"❌ Stop on page {page_number}: {e}")
+            print(f"\n❌ Error on page {page_number}: {e}")
             break
 
-    # 5. Export to JSON (Portability) with MERGE
-    # Create a master dictionary to merge old and new data
-    master_db = existing_tickets.copy()
-    
-    # Update with what we fetched this session
-    for t in all_tickets:
-        master_db[t["session_id"]] = t
+    # 6. Merge & Save
+    if new_tickets:
+        print(f"\n✨ Found {len(new_tickets)} new/updated tickets.")
         
-    final_output = list(master_db.values())
-    
-    if final_output:
-        print(f"💾 Saving {len(final_output)} tickets to {OUTPUT_FILE}...")
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            json.dump(final_output, f, indent=4, ensure_ascii=False)
-        print("--- ✅ Export Complete ---")
+        # Merge logic: Update master_dict
+        for t in new_tickets:
+            known_sessions[t["session_id"]] = t # Overwrite with new version
         
-        # Inspection Helper
-        print("\n🔍 Inspection Hint:")
-        print("Open the JSON file and look at the 'active' field of a ticket you know the CEO answered.")
-        print("This will reveal their 'user_id' or 'nickname' which we can filter by in the future.")
+        # Convert back to list
+        final_list = list(known_sessions.values())
+        
+        # Sort by updated_at desc
+        final_list.sort(key=lambda x: x.get("updated_at", 0), reverse=True)
+        
+        # Atomic Write
+        temp_file = DB_FILE + ".tmp"
+        with open(temp_file, "w", encoding="utf-8") as f:
+            json.dump(final_list, f, indent=4, ensure_ascii=False)
+        
+        os.replace(temp_file, DB_FILE)
+        print(f"💾 Database updated: {DB_FILE}")
     else:
-        print("⚠️ No tickets found.")
+        print("\n💤 No new updates found. Database is up to date.")
 
 if __name__ == "__main__":
     main()

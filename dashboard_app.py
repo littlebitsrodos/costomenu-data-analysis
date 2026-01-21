@@ -57,7 +57,7 @@ if df.empty:
 # --- Sidebar Navigation ---------------------------------------------------
 with st.sidebar:
     st.header("Navigation")
-    page = st.radio("Go to:", ["Business Overview", "Support Intelligence", "Sales Intelligence"])
+    page = st.radio("Go to:", ["Business Overview", "Support Analytics", "Sales Intelligence"])
     
     st.markdown("---")
 
@@ -524,8 +524,8 @@ if page == "Business Overview":
             st.metric("3. Paying Customers", f"{end_metric}", delta=f"{final_conv:.2f}% Conversion")
 
 # --- Page 2: Support Intelligence -----------------------------------------
-elif page == "Support Intelligence":
-    st.title("📞 Support Intelligence")
+elif page == "Support Analytics":
+    st.title("🛡️ Support Analytics")
     st.markdown("Analysis of **370** processed tickets.")
     
     # Paths to generated CSVs
@@ -541,6 +541,14 @@ elif page == "Support Intelligence":
     topic_df = pd.read_csv(TOPICS_CSV)
     time_df = pd.read_csv(TIMING_CSV)
     cat_df = pd.read_csv(CATEGORIES_CSV)
+    
+    # Load Response Times
+    RESPONSE_CSV = Path(__file__).parent / "response_times.csv"
+    if RESPONSE_CSV.exists():
+        resp_df = pd.read_csv(RESPONSE_CSV)
+    else:
+        resp_df = pd.DataFrame()
+        st.warning("Run analyze_response_time.py to see Response Time metrics.")
     
     # Ensure Sentiment columns exist (backward compatibility)
     if "Sentiment" not in cat_df.columns:
@@ -623,11 +631,42 @@ elif page == "Support Intelligence":
         )
         st.plotly_chart(fig_sent, use_container_width=True)
         
-    with c4:
         st.info("💡 **Tip:** Click on the 'Negative' slice to see what people are complaining about.")
         
     st.markdown("###")
     
+    # --- Response Time Analysis ---
+    if not resp_df.empty:
+        st.subheader("⏱️ Response Times & SLA Analysis")
+        
+        # Metrics
+        avg_resp = resp_df["AvgResponseMinutes"].mean()
+        peak_hr = resp_df.loc[resp_df["AvgResponseMinutes"].idxmax()]
+        
+        c_resp1, c_resp2, c_resp3 = st.columns(3)
+        c_resp1.metric("Avg First Response", f"{avg_resp:.1f} mins", delta="-5m vs Target" if avg_resp < 30 else "Above Target", delta_color="normal" if avg_resp < 30 else "inverse")
+        c_resp2.metric("Slowest Hour", f"{int(peak_hr['Hour']):02d}:00", f"{peak_hr['AvgResponseMinutes']:.1f}m")
+        c_resp3.info("**Goal:** Respond within 30 minutes during business hours.")
+        
+        # Viz using Column Chart with Color Threshold
+        resp_df["Is_Breach"] = resp_df["AvgResponseMinutes"] > 30
+        
+        fig_resp = px.bar(
+            resp_df,
+            x="Hour",
+            y="AvgResponseMinutes",
+            title="Average Response Time by Hour of Day",
+            labels={"AvgResponseMinutes": "Mins to Respond", "Hour": "Hour of Day"},
+            color="AvgResponseMinutes",
+            color_continuous_scale=["#2a9d8f", "#e9c46a", "#e76f51"], # Green to Red
+            range_color=[0, 60] # Normalize color scale 0-60 mins
+        )
+        # Add SLA Line
+        fig_resp.add_hline(y=30, line_dash="dash", line_color="red", annotation_text="SLA Target (30m)")
+        fig_resp.update_layout(xaxis=dict(tickmode='linear', tick0=0, dtick=1))
+        
+        st.plotly_chart(fig_resp, use_container_width=True)
+
     st.markdown("###")
     
     # --- Advanced Intelligence: Who is complaining? ---
