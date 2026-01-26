@@ -1,0 +1,1134 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Sales Export</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Κωδ. Συν/γης (Viva)</th>
+                <th>Κωδικός Πληρωμής Viva Payments</th>
+                <th>E-mail</th>
+                <th>Τηλέφωνο</th>
+                <th>Περιγραφή Εμπόρου</th>
+                <th>Περιγραφή Πελάτη</th>
+                <th>Κωδ. Έγκρισης</th>
+                <th>Ημ/νία</th>
+                <th>Ώρα</th>
+                <th>Πηγή</th>
+                <th>Περιγραφή Πηγής</th>
+                <th>Πελάτης</th>
+                <th>Αριθμός Κάρτας</th>
+                <th>Τύπος Κάρτας</th>
+                <th>Ποσό</th>
+                <th>Α/Α Δόσης</th>
+                <th>Δεσμευμένο ποσό</th>
+                <th>Ποσό Φιλοδωρήματος</th>
+                <th>Ποσό Εξαργύρωσης</th>
+                <th>Ποσό Προσαύξησης</th>
+                <th>Κανάλι</th>
+                <th>Κατάσταση</th>
+                <th>Τύπος</th>
+                <th>Ετικέτες</th>
+                <th>Ημ/νία Εκκαθάρισης</th>
+                <th>Καθαρό ποσό Εμπόρου</th>
+                <th>Interchange Fee</th>
+                <th>Χρέωση Σχημάτων</th>
+                <th>Προμήθεια</th>
+                <th>Τέλη ISV</th>
+                <th>Κωδικός Τερματικού</th>
+                <th>Απόκριση του issuer</th>
+                <th>Αρχικό ποσό</th>
+                <th>Αρχικό νόμισμα</th>
+                <th>Conversion rate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>381cfd60-7367-4509-a946-2fe11465c68b</td>
+                <td>="4215239492272602"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>=""</td>
+                <td>28/12/2016</td>
+                <td>14:40:55</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>-31,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Web POS</td>
+                <td>Επιτυχημένη</td>
+                <td>Ακύρωση Χρέωσης</td>
+                <td></td>
+                <td></td>
+                <td>-30,02</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2777ce30-1f28-4fd2-accd-fcf21141c559</td>
+                <td>="9481789375272600"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="258964"</td>
+                <td>28/12/2016</td>
+                <td>14:36:22</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>31,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>29/12/2016</td>
+                <td>30,02</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>414a3fc1-c717-4ee9-bf66-2df86f6a903a</td>
+                <td>="4215239492272602"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="258558"</td>
+                <td>28/12/2016</td>
+                <td>14:35:15</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>31,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Ακυρωμένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td></td>
+                <td>30,02</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>33407966-ffa3-4266-9004-691eee3bec29</td>
+                <td>="8768357814072608"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="728924"</td>
+                <td>21/12/2016</td>
+                <td>17:26:08</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>22/12/2016</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>44a97f32-bbe1-4ab5-9ad9-3ef5a836b37c</td>
+                <td>="6511534216072602"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="081756"</td>
+                <td>20/12/2016</td>
+                <td>15:38:31</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>31,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>21/12/2016</td>
+                <td>30,02</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>bf515964-5328-4275-88ff-24762ee5c91c</td>
+                <td>="3027712498772601"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="091309"</td>
+                <td>18/12/2016</td>
+                <td>13:02:07</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>19/12/2016</td>
+                <td>59,59</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6c630db0-f023-4079-8abd-079244389108</td>
+                <td>="3636357556272608"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="452323"</td>
+                <td>17/12/2016</td>
+                <td>18:22:17</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>19/12/2016</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5abf55a1-31ed-4628-9f71-62e10be149bc</td>
+                <td>="7299960688272608"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="900679"</td>
+                <td>11/12/2016</td>
+                <td>10:38:20</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>12/12/2016</td>
+                <td>23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83805799"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>f73297f2-afb8-47e9-85e8-b3ec34a0d520</td>
+                <td>="9805334102772608"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="012340"</td>
+                <td>28/11/2016</td>
+                <td>15:28:25</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>31,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>29/11/2016</td>
+                <td>30,02</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>fc00118b-90d6-4dac-95d7-e9ac0ed48f91</td>
+                <td>="6984591382172601"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="981909"</td>
+                <td>18/11/2016</td>
+                <td>12:18:04</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>21/11/2016</td>
+                <td>23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>e61e5b14-e66d-40c4-8975-b9349017e76e</td>
+                <td>="9668572821172607"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>=""</td>
+                <td>15/11/2016</td>
+                <td>14:51:05</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>-24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Web POS</td>
+                <td>Επιτυχημένη</td>
+                <td>Ακύρωση Χρέωσης</td>
+                <td></td>
+                <td></td>
+                <td>-23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>ad1f1395-7def-4a7d-9fd7-865f8b1d7645</td>
+                <td>="4922994065672602"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="797008"</td>
+                <td>15/11/2016</td>
+                <td>14:27:03</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>16/11/2016</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>e7f4ddc4-d109-4974-a7c2-2bb577b8f51e</td>
+                <td>="9668572821172607"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="766254"</td>
+                <td>15/11/2016</td>
+                <td>13:21:08</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Ακυρωμένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td></td>
+                <td>23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6f848009-a4e3-46c5-8371-291a57851df6</td>
+                <td>="9223274867472602"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>=""</td>
+                <td>14/11/2016</td>
+                <td>17:41:30</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>-24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Web POS</td>
+                <td>Επιτυχημένη</td>
+                <td>Ακύρωση Χρέωσης</td>
+                <td></td>
+                <td></td>
+                <td>-23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>0792c516-f165-4a36-abeb-7e582eb028c3</td>
+                <td>="7888891712172609"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>=""</td>
+                <td>14/11/2016</td>
+                <td>17:41:21</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>-24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Web POS</td>
+                <td>Επιτυχημένη</td>
+                <td>Ακύρωση Χρέωσης</td>
+                <td></td>
+                <td></td>
+                <td>-23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>06ee4036-dcbd-4f05-9a32-252db67f2354</td>
+                <td>="7888891712172609"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="520461"</td>
+                <td>14/11/2016</td>
+                <td>17:34:49</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Ακυρωμένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td></td>
+                <td>23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>de370b74-ef3d-4c05-b62e-94a595c5475e</td>
+                <td>="9223274867472602"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="518695"</td>
+                <td>14/11/2016</td>
+                <td>17:30:22</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Ακυρωμένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td></td>
+                <td>23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>ee8e0b87-d6c1-4e85-ac9e-f8973523ef6c</td>
+                <td>="9354292139872601"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>=""</td>
+                <td>14/11/2016</td>
+                <td>16:57:25</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>-24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Web POS</td>
+                <td>Επιτυχημένη</td>
+                <td>Ακύρωση Χρέωσης</td>
+                <td></td>
+                <td></td>
+                <td>-23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>41aa6164-8335-41ad-9bba-d36c8118bc0b</td>
+                <td>="9354292139872601"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="505358"</td>
+                <td>14/11/2016</td>
+                <td>16:54:14</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Ακυρωμένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td></td>
+                <td>23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>234546ec-e9ee-4dfa-8243-f4403afa3ded</td>
+                <td>="8511215487472601"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>=""</td>
+                <td>14/11/2016</td>
+                <td>16:46:27</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>-24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Web POS</td>
+                <td>Επιτυχημένη</td>
+                <td>Ακύρωση Χρέωσης</td>
+                <td></td>
+                <td></td>
+                <td>-23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>f5507443-e30e-4c72-96d0-aa9e774dd216</td>
+                <td>="8511215487472601"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="493493"</td>
+                <td>14/11/2016</td>
+                <td>16:18:32</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Ακυρωμένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td></td>
+                <td>23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8019334d-054c-4d4a-89cc-b66e64441dcf</td>
+                <td>="1110154222872600"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>=""</td>
+                <td>10/11/2016</td>
+                <td>09:51:02</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>-24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Web POS</td>
+                <td>Επιτυχημένη</td>
+                <td>Ακύρωση Χρέωσης</td>
+                <td></td>
+                <td></td>
+                <td>-23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>cea87dc3-91d6-49dc-a919-49d4f4ed3d74</td>
+                <td>="1110154222872600"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="054339"</td>
+                <td>10/11/2016</td>
+                <td>09:45:10</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Ακυρωμένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td></td>
+                <td>23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>c19d138f-7b5c-45ce-b32e-d167ce2da582</td>
+                <td>="5492474270872609"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>=""</td>
+                <td>9/11/2016</td>
+                <td>16:40:31</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>-24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Web POS</td>
+                <td>Επιτυχημένη</td>
+                <td>Ακύρωση Χρέωσης</td>
+                <td></td>
+                <td></td>
+                <td>-23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4530c346-3248-4809-bae1-b1ec1c4ee86e</td>
+                <td>="5492474270872609"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="908446"</td>
+                <td>9/11/2016</td>
+                <td>16:29:52</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Ακυρωμένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td></td>
+                <td>23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>73e58b2d-6077-4467-990d-015aea62e432</td>
+                <td>="3050328035172603"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="120013"</td>
+                <td>24/10/2016</td>
+                <td>00:29:13</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>25/10/2016</td>
+                <td>23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>ab96b774-4d15-403b-9dd3-9a47124915a5</td>
+                <td>="8538745199972606"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="061538"</td>
+                <td>21/10/2016</td>
+                <td>15:35:39</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>24/10/2016</td>
+                <td>59,59</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

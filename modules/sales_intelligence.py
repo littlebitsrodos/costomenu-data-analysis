@@ -1,212 +1,161 @@
 import streamlit as st
 import pandas as pd
-import json
 import plotly.express as px
 from pathlib import Path
-from difflib import get_close_matches
 
-# --- Load Data Helper ---
-def load_invoice_data():
-    # 1. Load Invoices
-    # Assuming running from root directory
-    json_path = Path("invoices.json")
-    if not json_path.exists():
-        return pd.DataFrame(), pd.DataFrame()
-    
-    with open(json_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    
-    # 2. Load CRM Data
-    crm_path = Path("cleaned_costo_menu.csv")
-    crm_df = pd.DataFrame()
-    if crm_path.exists():
-        crm_df = pd.read_csv(crm_path)
-        # Type cleanup
-        if "Total payments amount" in crm_df.columns:
-            crm_df["Total payments amount"] = pd.to_numeric(crm_df["Total payments amount"], errors="coerce").fillna(0)
-        if "Last activity date" in crm_df.columns:
-            crm_df["Last activity date"] = pd.to_datetime(crm_df["Last activity date"], errors="coerce")
-    
-    # 3. Flatten Invoice Data & Match
-    flat_data = []
-    
-    # Helper for matching
-    crm_names = crm_df["Fullname"].dropna().tolist() if not crm_df.empty else []
-    
-    for inv in data:
-        for item in inv["items"]:
-            # Coordinate lookup (Mocking a Geocoding API)
-            city_coords = {
-                "MELISSIA": {"lat": 38.05, "lon": 23.83},
-                "RETHYMNO": {"lat": 35.36, "lon": 24.47},
-                "THESSALONIKI": {"lat": 40.64, "lon": 22.94},
-                "ATHINA": {"lat": 37.98, "lon": 23.72},
-                "CHANIA": {"lat": 35.51, "lon": 24.02},
-                "KOS": {"lat": 36.89, "lon": 27.28}
-            }
-            
-            # Simple city extraction logic
-            cust_addr = inv.get("customer", {}).get("address", "Unknown")
-            address = cust_addr.upper()
-            city = "Unknown"
-            lat, lon = None, None
-            
-            for k, v in city_coords.items():
-                if k in address:
-                    city = k.title()
-                    lat = v["lat"]
-                    lon = v["lon"]
-                    break
-            if city == "Unknown" and "ATHINA" in address: # Fallback
-                city = "Athina"
-                lat = city_coords["ATHINA"]["lat"]
-                lon = city_coords["ATHINA"]["lon"]
+# --- Configuration ---
+SALES_EXPORT_PATH = Path("SalesExport_23_1_2026.xls")
+CRM_DATA_PATH = Path("cleaned_costo_menu.csv")
 
-            # --- INTELLIGENCE: MATCHING ---
-            inv_name = inv.get("customer", {}).get("name", "Unknown")
-            match_name = None
-            match_ltv = 0
-            match_status = "Unknown"
-            match_last_active = None
-            
-            if crm_names:
-                matches = get_close_matches(inv_name, crm_names, n=1, cutoff=0.4)
-                if not matches:
-                     parts = inv_name.split("/")
-                     for p in parts:
-                         sub_matches = get_close_matches(p.strip(), crm_names, n=1, cutoff=0.5)
-                         if sub_matches:
-                             matches = sub_matches
-                             break
-                
-                if matches:
-                    match_name = matches[0]
-                    # Get CRM details
-                    crm_user = crm_df[crm_df["Fullname"] == match_name].iloc[0]
-                    match_ltv = crm_user.get("Total payments amount", 0)
-                    match_last_active = crm_user.get("Last activity date", pd.NaT)
-                    
-                    # Status Logic
-                    if pd.notnull(match_last_active):
-                        days_inactive = (pd.Timestamp.now() - match_last_active).days
-                        if days_inactive < 30:
-                            match_status = "Active"
-                        elif days_inactive < 90:
-                            match_status = "At Risk"
-                        else:
-                            match_status = "Dormant"
-                    else:
-                        match_status = "Unknown"
+@st.cache_data
+def load_crm_data():
+    if not CRM_DATA_PATH.exists():
+        return pd.DataFrame()
+    df = pd.read_csv(CRM_DATA_PATH)
+    if 'Email' in df.columns:
+        df['Email_Clean'] = df['Email'].astype(str).str.lower().str.strip()
+    return df
 
-            flat_data.append({
-                "Date": pd.to_datetime(inv.get("date", pd.Timestamp.now())),
-                "Invoice": inv.get("invoice_number", "UNK"),
-                "Customer": inv_name,
-                "Region": city,
-                "Lat": lat,
-                "Lon": lon,
-                "Package": item.get("description", "Unknown").split(" - ")[0],
-                "Amount": item.get("total", 0),
-                "CRM_Match": match_name,
-                "CRM_LTV": match_ltv,
-                "CRM_Status": match_status,
-                "CRM_Last_Active": match_last_active
-            })
+@st.cache_data
+def load_viva_sales():
+    if not SALES_EXPORT_PATH.exists():
+        return pd.DataFrame()
+    
+    try:
+        # Viva exports are HTML tables renamed to .xls
+        df_list = pd.read_html(SALES_EXPORT_PATH, decimal=',', thousands='.')
+        if not df_list:
+            return pd.DataFrame()
+        
+        df = df_list[0]
+        # Clean column names
+        df.columns = [c.strip() for c in df.columns]
+        
+        # Basic cleaning for 'Ποσό' (Amount)
+        if 'Ποσό' in df.columns:
+            # Handle potential Excel-style string prefixes like ='161.20'
+            df['Amount_Clean'] = df['Ποσό'].astype(str).str.replace('=', '').str.replace('"', '').str.replace("'", "").str.strip().astype(float)
+        
+        # Clean 'Ημ/νία' (Date)
+        if 'Ημ/νία' in df.columns:
+            df['Date_Clean'] = pd.to_datetime(df['Ημ/νία'], dayfirst=True, errors='coerce')
+        
+        if 'E-mail' in df.columns:
+            df['Email_Clean'] = df['E-mail'].astype(str).str.lower().str.strip()
             
-    df = pd.DataFrame(flat_data)
-    return df, crm_df
+        return df
+    except Exception as e:
+        st.error(f"Error loading Sales Export: {e}")
+        return pd.DataFrame()
 
 def render_page():
-    st.title("🧾 Invoice Intelligence")
-    st.caption("Auto-matched Invoices with CRM Data")
-    st.markdown("---")
-
-    df, crm_df = load_invoice_data()
-
-    if df.empty:
-        st.info("No invoice data found. Please place `invoices.json` in the processed folder.")
-        # Optional: Button to run processor
-        # if st.button("Run Invoice Processor"):
-        #     ...
+    st.title("💰 Viva Sales Intelligence")
+    st.markdown("Live Sales Data from **Viva Payments** Export.")
+    
+    # Load Data
+    viva_df = load_viva_sales()
+    crm_df = load_crm_data()
+    
+    if viva_df.empty:
+        st.warning("No sales data found in `SalesExport_23_1_2026.xls`.")
         return
 
+    # Filter for Successful Transactions
+    success_df = viva_df[viva_df['Κατάσταση'] == 'Επιτυχημένη'].copy()
+    
+    # Year Filter
+    if 'Date_Clean' in success_df.columns:
+        success_df['Year'] = success_df['Date_Clean'].dt.year
+        years = sorted(success_df['Year'].unique().tolist(), reverse=True)
+        selected_year = st.selectbox("Select Year:", ["All"] + [str(y) for y in years])
+        
+        if selected_year != "All":
+            success_df = success_df[success_df['Year'] == int(selected_year)]
+
+    # --- Reconciliation logic ---
+    if not crm_df.empty and 'Email_Clean' in success_df.columns:
+        # Join to find matches
+        merged = pd.merge(
+            success_df, 
+            crm_df[['Email_Clean', 'Fullname', 'License', 'License status']], 
+            on='Email_Clean', 
+            how='left'
+        )
+        match_count = merged['Fullname'].notna().sum()
+        match_rate = (match_count / len(success_df)) * 100
+        unmatched_df = merged[merged['Fullname'].isna()]
+    else:
+        match_count = 0
+        match_rate = 0
+        unmatched_df = pd.DataFrame()
+
     # --- Top Level Metrics ---
-    if not df.empty:
-        col1, col2, col3, col4 = st.columns(4)
-        
-        total_rev = df["Amount"].sum()
-        matched_pct = (df["CRM_Match"].notnull().sum() / len(df)) * 100
-        total_ltv_impact = df["CRM_LTV"].sum()
-        
-        col1.metric("Total Processed Revenue", f"€{total_rev:,.2f}")
-        col2.metric("CRM Match Rate", f"{(matched_pct):.0f}%")
-        col3.metric("Lifetime Value (Impact)", f"€{total_ltv_impact:,.2f}")
-        col4.metric("Invoices Digitized", len(df))
+    total_rev = success_df['Amount_Clean'].sum()
+    total_trans = len(success_df)
+    avg_ticket = total_rev / total_trans if total_trans > 0 else 0
+    
+    m1, m2, m3 = st.columns(3)
+    m1.metric("Total Revenue", f"€{total_rev:,.2f}")
+    m2.metric("Successful Transactions", total_trans)
+    m3.metric("Avg. Sale Value", f"€{avg_ticket:,.2f}")
+    
+    st.markdown("---")
 
-        st.markdown("###")
+    # --- Reconciliation Explorer ---
+    st.subheader("🔗 CRM Reconciliation")
+    r1, r2, r3 = st.columns(3)
+    r1.metric("CRM Match Rate", f"{match_rate:.1f}%")
+    r2.metric("Matched Customers", match_count)
+    r3.metric("Unknown Buyers", len(unmatched_df))
 
-        # --- Charts Row 1 ---
-        c1, c2 = st.columns([1, 1])
+    with st.expander("Why are some buyers unknown?"):
+        st.markdown("""
+        **Unmatched transactions** usually represent:
+        1. **New Customers:** People who just bought but aren't in the last Excel export yet.
+        2. **Email Mismatch:** They used a different email for payment than the one in their account.
+        3. **Ghost Sales:** Legacy or manual adjustments.
+        """)
+
+    if not unmatched_df.empty:
+        st.warning(f"Found {len(unmatched_df)} transactions from emails not found in CRM.")
+        st.dataframe(
+            unmatched_df[['Ημ/νία', 'E-mail', 'Περιγραφή Εμπόρου', 'Ποσό']], 
+            use_container_width=True, 
+            hide_index=True
+        )
+
+    st.markdown("---")
+    
+    # --- Visuals ---
+    c1, c2 = st.columns(2)
+    
+    with c1:
+        st.subheader("Sales by Product")
+        # Clean up description (remove =" prefix)
+        success_df['Product'] = success_df['Περιγραφή Εμπόρου'].str.replace('=', '').str.replace('"', '').str.strip()
+        prod_stats = success_df.groupby('Product')['Amount_Clean'].sum().reset_index()
+        fig_pie = px.pie(prod_stats, values='Amount_Clean', names='Product', hole=0.4, 
+                         color_discrete_sequence=px.colors.qualitative.Prism)
+        st.plotly_chart(fig_pie, use_container_width=True)
         
-        with c1:
-            st.subheader("📦 Package vs CRM Status")
-            fig_sun = px.sunburst(
-                df, 
-                path=['Package', 'CRM_Status'], 
-                values='Amount',
-                color='CRM_Status',
-                color_discrete_map={
-                    "Active": "#2a9d8f", 
-                    "At Risk": "#e9c46a", 
-                    "Dormant": "#e76f51", 
-                    "Unknown": "#cfcfcf"
-                }
-            )
-            st.plotly_chart(fig_sun, use_container_width=True)
-            
-        with c2:
-            st.subheader("🗺️ Revenue by Region")
-            df_geo = df.dropna(subset=["Lat", "Lon"])
-            if not df_geo.empty:
-                fig_map = px.scatter_mapbox(
-                    df_geo, 
-                    lat="Lat", 
-                    lon="Lon", 
-                    size="Amount",
-                    color="CRM_Status",
-                    hover_name="Customer",
-                    hover_data=["Region", "Amount", "CRM_Match"],
-                    zoom=5,
-                    center={"lat": 38.0, "lon": 23.7},
-                    mapbox_style="carto-positron"
-                )
-                st.plotly_chart(fig_map, use_container_width=True)
-            else:
-                st.warning("No geospatial data found.")
+    with c2:
+        st.subheader("Revenue Trend")
+        # Group by Date
+        daily_rev = success_df.groupby('Date_Clean')['Amount_Clean'].sum().reset_index()
+        daily_rev = daily_rev.sort_values('Date_Clean')
+        fig_line = px.line(daily_rev, x='Date_Clean', y='Amount_Clean', markers=True, 
+                          labels={'Date_Clean': 'Date', 'Amount_Clean': 'Daily Revenue (€)'})
+        st.plotly_chart(fig_line, use_container_width=True)
 
-        # --- Intelligence Feed ---
-        st.markdown("---")
-        st.subheader("🧠 Intelligence Feed")
-        
-        for idx, row in df.iterrows():
-            with st.expander(f"🧾 #{row['Invoice']} - {row['Customer']} (€{row['Amount']})"):
-                ic1, ic2 = st.columns(2)
-                with ic1:
-                    st.markdown(f"**Details**")
-                    st.text(f"Date: {row['Date'].date()}")
-                    st.text(f"Pkg: {row['Package']}")
-                
-                with ic2:
-                    if row['CRM_Match']:
-                        st.success(f"✅ Matched: {row['CRM_Match']}")
-                        st.markdown(f"- **Status:** {row['CRM_Status']}")
-                        
-                        if row['CRM_Status'] == "Dormant":
-                            st.error("🚨 **Churn Risk:** User paid but inactive >90d!")
-                        elif row['CRM_Status'] == "Unknown" and row['Amount'] > 0:
-                            st.warning("⚠️ **Ghost User:** Paying but no tracking data.")
-                    else:
-                        st.warning("❌ No CRM Match Found.")
-
-        with st.expander("🔎 View Raw Data"):
-            st.dataframe(df)
+    # --- Data Explorer ---
+    st.subheader("🔍 Transaction Log")
+    
+    log_cols = ['Ημ/νία', 'Ώρα', 'E-mail', 'Περιγραφή Εμπόρου', 'Ποσό']
+    st.dataframe(
+        success_df[log_cols].sort_values('Ημ/νία', ascending=False),
+        use_container_width=True,
+        hide_index=True
+    )
+    
+    # Intelligence Snippet
+    st.info("💡 **Insight:** Renewals (Professional/Expert) are the most frequent transactions. Consider a targeted campaign for 'Beginner' users to 'Professional' upgrade.")

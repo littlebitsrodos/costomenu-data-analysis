@@ -1,0 +1,5254 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Sales Export</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Κωδ. Συν/γης (Viva)</th>
+                <th>Κωδικός Πληρωμής Viva Payments</th>
+                <th>E-mail</th>
+                <th>Τηλέφωνο</th>
+                <th>Περιγραφή Εμπόρου</th>
+                <th>Περιγραφή Πελάτη</th>
+                <th>Κωδ. Έγκρισης</th>
+                <th>Ημ/νία</th>
+                <th>Ώρα</th>
+                <th>Πηγή</th>
+                <th>Περιγραφή Πηγής</th>
+                <th>Πελάτης</th>
+                <th>Αριθμός Κάρτας</th>
+                <th>Τύπος Κάρτας</th>
+                <th>Ποσό</th>
+                <th>Α/Α Δόσης</th>
+                <th>Δεσμευμένο ποσό</th>
+                <th>Ποσό Φιλοδωρήματος</th>
+                <th>Ποσό Εξαργύρωσης</th>
+                <th>Ποσό Προσαύξησης</th>
+                <th>Κανάλι</th>
+                <th>Κατάσταση</th>
+                <th>Τύπος</th>
+                <th>Ετικέτες</th>
+                <th>Ημ/νία Εκκαθάρισης</th>
+                <th>Καθαρό ποσό Εμπόρου</th>
+                <th>Interchange Fee</th>
+                <th>Χρέωση Σχημάτων</th>
+                <th>Προμήθεια</th>
+                <th>Τέλη ISV</th>
+                <th>Κωδικός Τερματικού</th>
+                <th>Απόκριση του issuer</th>
+                <th>Αρχικό ποσό</th>
+                <th>Αρχικό νόμισμα</th>
+                <th>Conversion rate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>23d017c1-2089-4e5a-981f-eee9e07cddbf</td>
+                <td>="5414006697972605"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="040131"</td>
+                <td>28/12/2018</td>
+                <td>02:10:14</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>NIKOS PAPADIMITRIOU</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>29/12/2018</td>
+                <td>60,20</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>b4f9df65-077d-4715-87e1-6564d56718a2</td>
+                <td>="8102991380172606"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="301234"</td>
+                <td>22/12/2018</td>
+                <td>23:15:03</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>ANESTIS KALINDERIS</td>
+                <td></td>
+                <td></td>
+                <td>24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>23/12/2018</td>
+                <td>23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>de00925e-ac57-4e6b-8e76-6e5ca3398423</td>
+                <td>="4125706435272601"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="078264"</td>
+                <td>18/12/2018</td>
+                <td>01:05:25</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>K.D.PAPPAS</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>19/12/2018</td>
+                <td>60,20</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>ab473e72-e322-41b9-ad79-31a5d0bb4640</td>
+                <td>="9175317298772605"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="101935"</td>
+                <td>17/12/2018</td>
+                <td>19:59:35</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>DIMITRIOS G. MAGEIRAS</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>18/12/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7dcdee77-db11-4e3e-a0a3-c34d12608871</td>
+                <td>="4687292186372600"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="101847"</td>
+                <td>16/12/2018</td>
+                <td>18:39:47</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>GEORGIA K. BOURNOU</td>
+                <td></td>
+                <td></td>
+                <td>24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>17/12/2018</td>
+                <td>23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>24f29f71-aa22-424f-94e4-d1d990647a57</td>
+                <td>="3501374050972607"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="393599"</td>
+                <td>11/12/2018</td>
+                <td>22:30:01</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>Ανδρέας κορμπας</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>12/12/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>ada03e16-06c7-4037-bc67-c1681862fea7</td>
+                <td>="2008285835672602"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="177485"</td>
+                <td>11/12/2018</td>
+                <td>16:36:48</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>Kokkalis Efstathios</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>12/12/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5e883575-7319-4006-8e92-edc9d65fb969</td>
+                <td>="1960495233572608"</td>
+                <td>navalmarinerhodes@yahoo.com</td>
+                <td>=""</td>
+                <td>="CostoMenu package: long"</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="706463"</td>
+                <td>29/11/2018</td>
+                <td>14:31:00</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>NAVAL MARINE</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>30/11/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9909527d-5d72-4ede-a46e-47371139342b</td>
+                <td>="8905525625472600"</td>
+                <td>vsmaragdakis@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu package: long"</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="587829"</td>
+                <td>27/11/2018</td>
+                <td>22:06:45</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>VAGGELIS SMARAGDAKIS</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>28/11/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>d4239ae7-9e41-4eb9-8dde-eb9d4c18a742</td>
+                <td>="4240838542772608"</td>
+                <td>mandilaskon86@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu package: short"</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="130821"</td>
+                <td>27/11/2018</td>
+                <td>08:52:21</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>mandylas konstantinos</td>
+                <td></td>
+                <td></td>
+                <td>24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>28/11/2018</td>
+                <td>23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>47b07d7c-b662-4613-860f-b6d7b8dd010f</td>
+                <td>="9129558702672609"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="161511"</td>
+                <td>25/11/2018</td>
+                <td>15:37:09</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>Balopoulos dimosthenis</td>
+                <td></td>
+                <td></td>
+                <td>24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>26/11/2018</td>
+                <td>23,69</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9e8d7282-1f0c-46ed-9e85-33366b78dfda</td>
+                <td>="1636686556772606"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="324268"</td>
+                <td>23/11/2018</td>
+                <td>18:13:56</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>vagelis maganiaris</td>
+                <td></td>
+                <td></td>
+                <td>60,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>24/11/2018</td>
+                <td>58,31</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>f1ed313a-34f9-4a91-98e0-2115d1a25317</td>
+                <td>="9849451238872602"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="004974"</td>
+                <td>20/11/2018</td>
+                <td>15:40:49</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>Εύα Κοντάκη</td>
+                <td></td>
+                <td></td>
+                <td>50,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>21/11/2018</td>
+                <td>47,85</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>ec661b8d-223a-4a16-bb51-c0f9363da6a8</td>
+                <td>="1732940243072601"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="688389"</td>
+                <td>9/11/2018</td>
+                <td>18:37:13</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>ΣΟΥΛΗ ΚΑΤΕΡΙΝΑ</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>10/11/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>d3e29cc9-9276-49df-a7ab-1e082f61474f</td>
+                <td>="1070357432672605"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="238178"</td>
+                <td>9/11/2018</td>
+                <td>15:42:50</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>NATALIA MARTINI LMNP CITYN HOTELS LTD</td>
+                <td></td>
+                <td></td>
+                <td>59,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>10/11/2018</td>
+                <td>57,08</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>da812908-3bf7-4c7c-af66-66359ddafdbc</td>
+                <td>="7511408185772608"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="061931"</td>
+                <td>28/10/2018</td>
+                <td>19:03:31</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>KORYDALLOS ESTIASI</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>29/10/2018</td>
+                <td>59,79</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>a291bb40-26ab-4418-9792-992c00b70f53</td>
+                <td>="4806188997872606"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="274530"</td>
+                <td>27/10/2018</td>
+                <td>00:20:06</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>G E PATSIORAS</td>
+                <td></td>
+                <td></td>
+                <td>24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>28/10/2018</td>
+                <td>23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>83471cdb-d2a0-41c5-a09f-005edff0a0e9</td>
+                <td>="6141520387272609"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="015680"</td>
+                <td>23/10/2018</td>
+                <td>13:49:01</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>MARIA PAPADAKI</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>24/10/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>d7962c1b-8b2f-4d89-9518-4508d3b52a32</td>
+                <td>="8387002249772604"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="091728"</td>
+                <td>15/10/2018</td>
+                <td>17:46:27</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>NOLITA ATHENS IKE</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>16/10/2018</td>
+                <td>59,59</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>54ed70cd-4e80-49ad-9ea5-e27fcb9bd101</td>
+                <td>="9928113593672605"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="201128"</td>
+                <td>14/10/2018</td>
+                <td>11:50:28</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>Diamantatos michalis</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>15/10/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>0e3be87a-956c-4171-90c3-fff316006347</td>
+                <td>="3178042199272604"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="013842"</td>
+                <td>8/10/2018</td>
+                <td>11:16:18</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>CHRYSSA STAVROPOULOU</td>
+                <td></td>
+                <td></td>
+                <td>24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>9/10/2018</td>
+                <td>23,66</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9586040b-ff4c-4153-b307-d6709e1c9c9e</td>
+                <td>="1701278676172605"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="382786"</td>
+                <td>3/10/2018</td>
+                <td>20:45:01</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>Jan Lumaj</td>
+                <td></td>
+                <td></td>
+                <td>24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>4/10/2018</td>
+                <td>23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>89d1edb8-1e50-4a6f-82c0-4d87da30a632</td>
+                <td>="3148187153972605"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="070709"</td>
+                <td>2/10/2018</td>
+                <td>07:49:08</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>POLIKARPOS STAGIDIS</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>3/10/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>61c5c5d1-2119-44b9-b0e5-947eb68ca4e0</td>
+                <td>="9165198515472600"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="091445"</td>
+                <td>30/9/2018</td>
+                <td>14:47:45</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>K.P.VLANTIKAS</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>1/10/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>f9d17683-39bb-4449-abb8-28b99fd090ef</td>
+                <td>="6334503052572603"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="191579"</td>
+                <td>27/9/2018</td>
+                <td>17:03:54</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>FERFIRIS ATHANASIOS</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>28/9/2018</td>
+                <td>59,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8628f2c4-bc91-4062-af89-311d243b356f</td>
+                <td>="9445697460472602"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="967887"</td>
+                <td>17/9/2018</td>
+                <td>11:07:26</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>GEORGIOS KAFOUROS</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>18/9/2018</td>
+                <td>59,59</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>c0462bd7-f4b9-4317-8664-2b6e22e49071</td>
+                <td>="5158928178072600"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="861903"</td>
+                <td>15/9/2018</td>
+                <td>19:19:19</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>Εμμανουηλιδης Στυλιανος</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>16/9/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7e5fde65-82d0-4849-aac8-c59c5a3998ca</td>
+                <td>="6106331865972601"</td>
+                <td>denniszografoy@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu package: long"</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="862894"</td>
+                <td>8/9/2018</td>
+                <td>15:31:46</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>Διονύσης Αντωνακόπουλος</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>9/9/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>f1314bb5-5b8e-4b28-9e7d-0c040260cf72</td>
+                <td>="6636851731572608"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="051258"</td>
+                <td>14/8/2018</td>
+                <td>12:38:57</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>E E TRACHALAKI</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>15/8/2018</td>
+                <td>59,59</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>47c7093c-c61d-453f-b33a-e8c51c8d1751</td>
+                <td>="4408068327472600"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="631250"</td>
+                <td>25/7/2018</td>
+                <td>12:11:48</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>MASTORAKIS E.</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>26/7/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3322fc79-cfb7-4c10-b8b5-a6938b590b35</td>
+                <td>="5232608875772609"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="642057"</td>
+                <td>9/6/2018</td>
+                <td>12:22:12</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>A.MELISSINAKIS</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>10/6/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>d0be63d4-03dd-44e3-9268-e56b48bdd732</td>
+                <td>="1530778826672604"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="993324"</td>
+                <td>27/5/2018</td>
+                <td>14:43:51</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>ANGELIKI PAPADAKI</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>28/5/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2a0bb5e0-9d20-4e31-9acf-1130a8577179</td>
+                <td>="7373362144772606"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="566142"</td>
+                <td>23/5/2018</td>
+                <td>18:24:33</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>ALEXANDROS KIPRIOTIS</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>24/5/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>d2ce8d30-4933-4e66-a810-ba6840cdd95d</td>
+                <td>="8985953302672600"</td>
+                <td>stefanos_haz@hotmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu package: long"</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="091146"</td>
+                <td>17/5/2018</td>
+                <td>11:39:46</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>Stefanos Chatzidimitriou</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>18/5/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>ce8a0479-4575-434c-bf45-26ee9f24214e</td>
+                <td>="5489141001172608"</td>
+                <td>info@scuna.gr</td>
+                <td>=""</td>
+                <td>="CostoMenu package: long"</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="017298"</td>
+                <td>16/5/2018</td>
+                <td>16:43:11</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>ΔΗΜΗΤΡΗΣ ΚΟΛΙΑΚΟΣ</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>17/5/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>e8815792-f705-4e8d-a011-a4ff1d8de169</td>
+                <td>="7773625405672605"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="334240"</td>
+                <td>14/5/2018</td>
+                <td>10:16:15</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>Bouras ANASTASIOS</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>15/5/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4b686af4-3d1b-429f-b857-35a01943f3d4</td>
+                <td>="9176673769872606"</td>
+                <td>kousounis.cine@yahoo.gr</td>
+                <td>=""</td>
+                <td>="CostoMenu package: long"</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="802387"</td>
+                <td>11/5/2018</td>
+                <td>13:21:16</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>ΜΑΡΙΝΟΣ ΚΟΥΣΟΥΝΗΣ</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>12/5/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>dec6bcbf-8436-40cb-a985-a8ca414c0c28</td>
+                <td>="3716971869872605"</td>
+                <td>nikkat78@yahoo.com</td>
+                <td>=""</td>
+                <td>="CostoMenu package: long"</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="876194"</td>
+                <td>10/5/2018</td>
+                <td>16:53:37</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>Νικόλαος  Κατινάς</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>11/5/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>ab83a501-fa48-42e4-bc31-968fb172cb02</td>
+                <td>="1340937144272603"</td>
+                <td>nikosthomas91@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu package: short"</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="497801"</td>
+                <td>4/5/2018</td>
+                <td>19:57:23</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>Νίκος  Θωμάς </td>
+                <td></td>
+                <td></td>
+                <td>24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>5/5/2018</td>
+                <td>23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>84c0e8ee-e889-4e58-a274-68386d0b83a8</td>
+                <td>="3734298326472607"</td>
+                <td>h.fragakis@gmail.com</td>
+                <td>="6974607163"</td>
+                <td>="Seminar ID: 1777"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="091156"</td>
+                <td>23/4/2018</td>
+                <td>11:38:56</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Φραγκάκης Χαρίλαος</td>
+                <td></td>
+                <td></td>
+                <td>65,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>24/4/2018</td>
+                <td>63,20</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>26af7202-2139-477d-95fe-5177b85ff929</td>
+                <td>="3088300960172600"</td>
+                <td>katerinaprinitaki@gmail.com</td>
+                <td>="6989812606"</td>
+                <td>="Seminar ID: 1775"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="322274"</td>
+                <td>21/4/2018</td>
+                <td>23:23:10</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Χαρωνιτης  Γιάννης</td>
+                <td></td>
+                <td></td>
+                <td>65,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>22/4/2018</td>
+                <td>63,20</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>081ab547-a7e4-45fb-a0ed-71d46c28eb57</td>
+                <td>="6897935937672605"</td>
+                <td>picadillo.burger@gmail.com</td>
+                <td>="6982259698"</td>
+                <td>="Seminar ID: 1775"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="000186"</td>
+                <td>21/4/2018</td>
+                <td>21:21:38</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>ΠΕΤΟΥΣΗΣ  ΝΙΚΟΛΑΟΣ</td>
+                <td></td>
+                <td></td>
+                <td>65,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>22/4/2018</td>
+                <td>63,20</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>02756928-afbe-40ce-9dbf-323a1c32da02</td>
+                <td>="6914199272772604"</td>
+                <td>violettadiamantopoulou@gmail.com</td>
+                <td>="6944787923"</td>
+                <td>="Seminar ID: 1775"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="070956"</td>
+                <td>20/4/2018</td>
+                <td>09:26:54</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Διαμαντοπούλου Βιολέττα - Αικατερίνη </td>
+                <td></td>
+                <td></td>
+                <td>65,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>21/4/2018</td>
+                <td>62,48</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2d843b9b-28e1-4454-9d56-98b300d237b0</td>
+                <td>="2325677639672601"</td>
+                <td>Kanderakis@gmail.com</td>
+                <td>="6976790121"</td>
+                <td>="Seminar ID: 1777"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="342551"</td>
+                <td>19/4/2018</td>
+                <td>20:50:28</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>ΚΑΝΔΕΡΑΚΗΣ ΕΜΜΑΝΟΥΉΛ</td>
+                <td></td>
+                <td></td>
+                <td>65,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>20/4/2018</td>
+                <td>63,20</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>d646267f-c817-4997-a299-0bbc69c163bb</td>
+                <td>="9917861228572601"</td>
+                <td>Kanderakis@gmail.com</td>
+                <td>="6976790121"</td>
+                <td>="Seminar ID: 1775"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="340662"</td>
+                <td>19/4/2018</td>
+                <td>20:46:58</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Κανδεράκης Εμμανουήλ</td>
+                <td></td>
+                <td></td>
+                <td>65,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>20/4/2018</td>
+                <td>63,20</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>a7013d12-712b-4c16-a216-d9d4c5c2c93f</td>
+                <td>="5720093834572604"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="930339"</td>
+                <td>18/4/2018</td>
+                <td>13:50:20</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>D C STEFANOU</td>
+                <td></td>
+                <td></td>
+                <td>24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>19/4/2018</td>
+                <td>23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>55678de8-1029-414e-acc0-12e04a00a5a7</td>
+                <td>="1465920901872609"</td>
+                <td>rozis83@gmail.com</td>
+                <td>="6916577937"</td>
+                <td>="Seminar ID: 1769"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="723903"</td>
+                <td>15/4/2018</td>
+                <td>21:57:46</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Ροζης Ηρακλης</td>
+                <td></td>
+                <td></td>
+                <td>65,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>16/4/2018</td>
+                <td>63,20</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8513d9b6-ffe9-4718-a1ba-611efdd7f0d0</td>
+                <td>="7458080064472600"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="147933"</td>
+                <td>15/4/2018</td>
+                <td>19:49:18</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>ΑΘΑΝΑΣΙΟΥ ΓΙΩΡΓΟΣ</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>16/4/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>bb3a580b-0c45-45fd-960f-2c3ff8b0736e</td>
+                <td>="5203929945272604"</td>
+                <td>giorgostsapakis@gmail.com</td>
+                <td>="6972246277"</td>
+                <td>="Seminar ID: 1775"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="534467"</td>
+                <td>14/4/2018</td>
+                <td>23:30:04</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>ΤΣΑΠΑΚΗΣ ΓΕΩΡΓΙΟΣ</td>
+                <td></td>
+                <td></td>
+                <td>65,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>15/4/2018</td>
+                <td>63,20</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>e0861c12-b9cf-4d8b-a952-810cf8100f39</td>
+                <td>="9221307607072600"</td>
+                <td>titoscafe@hotmail.gr</td>
+                <td>="6934020792"</td>
+                <td>="Seminar ID: 1771"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="973812"</td>
+                <td>13/4/2018</td>
+                <td>19:25:21</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Γρυλλακης  Ιωάννης </td>
+                <td></td>
+                <td></td>
+                <td>65,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>14/4/2018</td>
+                <td>63,20</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>42b6f274-a823-49be-be01-8d6225126422</td>
+                <td>="9789502013572604"</td>
+                <td>titoscafe@hotmail.gr</td>
+                <td>="6934020792"</td>
+                <td>="Seminar ID: 1769"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="971384"</td>
+                <td>13/4/2018</td>
+                <td>19:23:09</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Γρυλλακης  Ιωάννης </td>
+                <td></td>
+                <td></td>
+                <td>65,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>14/4/2018</td>
+                <td>63,20</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2cbf68be-03b1-4687-ada4-2e2c85981714</td>
+                <td>="3169761638372601"</td>
+                <td>silligardakisgiorgos@gmail.com</td>
+                <td>="6970468670"</td>
+                <td>="Seminar ID: 1777"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="453671"</td>
+                <td>13/4/2018</td>
+                <td>19:17:51</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>ΣΥΛΛΙΓΑΡΔΑΚΗΣ ΓΙΩΡΓΟΣ</td>
+                <td></td>
+                <td></td>
+                <td>58,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>14/4/2018</td>
+                <td>56,86</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>dfbfd109-9eb5-46a4-8e66-6b285f8bf497</td>
+                <td>="6357735752772604"</td>
+                <td>than200.gr@gmail.com</td>
+                <td>="6973389786"</td>
+                <td>="Seminar ID: 1769"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="308032"</td>
+                <td>12/4/2018</td>
+                <td>10:27:38</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Αγγελακης  Αθανασιος</td>
+                <td></td>
+                <td></td>
+                <td>65,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>13/4/2018</td>
+                <td>63,20</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7e491025-525b-4a44-8ee3-719cfb8ae1da</td>
+                <td>="6452381001872604"</td>
+                <td>silligardakisgiorgos@gmail.com</td>
+                <td>="6970468670"</td>
+                <td>="Seminar ID: 1775"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="453670"</td>
+                <td>11/4/2018</td>
+                <td>11:34:12</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>ΣΥΛΛΙΓΑΡΔΑΚΗΣ ΓΙΩΡΓΟΣ</td>
+                <td></td>
+                <td></td>
+                <td>58,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>12/4/2018</td>
+                <td>56,86</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>64308cc6-8e68-44ec-b57f-f5d32732f263</td>
+                <td>="9142663204372605"</td>
+                <td>Marieva.ang@gmail.com</td>
+                <td>="6983452696"</td>
+                <td>="Seminar ID: 1775"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="998869"</td>
+                <td>11/4/2018</td>
+                <td>10:35:42</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Αγγελάκη  Μαριεύα </td>
+                <td></td>
+                <td></td>
+                <td>58,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>12/4/2018</td>
+                <td>56,86</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>0b09bce9-ac9c-42b6-b11e-658845913fda</td>
+                <td>="3122359195672606"</td>
+                <td>mariachatzaki1@gmail.com</td>
+                <td>="6977746268"</td>
+                <td>="Seminar ID: 1777"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="038061"</td>
+                <td>10/4/2018</td>
+                <td>23:40:20</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Χατζάκη Μαρία</td>
+                <td></td>
+                <td></td>
+                <td>58,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>11/4/2018</td>
+                <td>56,86</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>a359fa16-6acc-48cb-8d2d-b16f4ea9ffe3</td>
+                <td>="1947597770772600"</td>
+                <td>mariachatzaki1@gmail.com</td>
+                <td>="6977746268"</td>
+                <td>="Seminar ID: 1775"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="061362"</td>
+                <td>10/4/2018</td>
+                <td>23:39:07</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>ΧΑΤΖΑΚΗ ΜΑΡΙΑ</td>
+                <td></td>
+                <td></td>
+                <td>58,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>11/4/2018</td>
+                <td>56,86</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3f2346f0-745c-4405-929c-cbc05d02c711</td>
+                <td>="8688275297572600"</td>
+                <td>hhantoni@hotmail.com</td>
+                <td>="6986018970"</td>
+                <td>="Seminar ID: 1775"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="828168"</td>
+                <td>10/4/2018</td>
+                <td>21:19:51</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Antoniadis Harris</td>
+                <td></td>
+                <td></td>
+                <td>58,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>11/4/2018</td>
+                <td>56,86</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>ddc3c089-177b-440e-a82c-62a286e550d2</td>
+                <td>="3158820439772602"</td>
+                <td>info@sweetmemory.gr</td>
+                <td>="6937775266"</td>
+                <td>="Seminar ID: 1775"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="227817"</td>
+                <td>10/4/2018</td>
+                <td>13:05:59</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>ΠΑΠΑΔΑΚΗΣ ΙΩΑΝΝΗΣ</td>
+                <td></td>
+                <td></td>
+                <td>58,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>11/4/2018</td>
+                <td>56,86</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>e2d1d326-d8f3-4c82-8ea6-db34c7e71fcd</td>
+                <td>="9218166542772603"</td>
+                <td>rafaelatrigwni@gmail.com</td>
+                <td>="697833343"</td>
+                <td>="Seminar ID: 1777"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="619937"</td>
+                <td>8/4/2018</td>
+                <td>21:35:16</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>TΡΙΓΩΝΗ ΡΑΦΑΕΛΑ</td>
+                <td></td>
+                <td></td>
+                <td>58,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>9/4/2018</td>
+                <td>56,86</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>cad7b698-2107-4023-9878-ee74e2932f0a</td>
+                <td>="2851697846672607"</td>
+                <td>rafaelatrigwni@gmail.com</td>
+                <td>="6978313343"</td>
+                <td>="Seminar ID: 1775"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="619936"</td>
+                <td>8/4/2018</td>
+                <td>21:29:13</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>ΤΡΙΓΩΝΗ  ΡΑΦΑΕΛΑ </td>
+                <td></td>
+                <td></td>
+                <td>58,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>9/4/2018</td>
+                <td>56,86</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4040c8d8-b573-4f1e-9c2d-827f6b2d860a</td>
+                <td>="8593796483272609"</td>
+                <td>giorgos@oinoteka.gr</td>
+                <td>="6944171000"</td>
+                <td>="Seminar ID: 1777"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="061453"</td>
+                <td>7/4/2018</td>
+                <td>14:04:54</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>ΚΟΥΤΣΟΥΠΙΑΣ ΓΙΩΡΓΟΣ</td>
+                <td></td>
+                <td></td>
+                <td>58,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>8/4/2018</td>
+                <td>56,86</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>497988fe-ddb7-41d6-a2de-1e4900fce0dc</td>
+                <td>="7386033252772609"</td>
+                <td>gkoutsoupias@yahoo.gr</td>
+                <td>="6944171000"</td>
+                <td>="Seminar ID: 1775"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="061426"</td>
+                <td>7/4/2018</td>
+                <td>14:01:23</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>ΚΟΥΤΣΟΥΠΙΑΣ ΓΙΩΡΓΟΣ</td>
+                <td></td>
+                <td></td>
+                <td>58,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>8/4/2018</td>
+                <td>56,86</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>c1a91462-0e12-4f79-a404-4015dd7c4bfc</td>
+                <td>="2227045232772606"</td>
+                <td>mevarestos@gmail.com</td>
+                <td>="6957542540"</td>
+                <td>="Seminar ID: 1775"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="000193"</td>
+                <td>6/4/2018</td>
+                <td>22:18:45</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>ΜΟΥΜΟΥΛΙΔΗΣ ΕΥΑΡΕΣΤΟΣ</td>
+                <td></td>
+                <td></td>
+                <td>58,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>7/4/2018</td>
+                <td>56,86</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4ad3e20e-15e4-4ed0-a1d1-8d089bff7afd</td>
+                <td>="7773777060172604"</td>
+                <td>panayos_1990@yahoo.gr</td>
+                <td>="6982279503"</td>
+                <td>="Seminar ID: 1777"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="000094"</td>
+                <td>6/4/2018</td>
+                <td>10:04:34</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>ΛΑΜΠΡΑΚΗΣ ΠΑΝΑΓΙΩΤΗΣ</td>
+                <td></td>
+                <td></td>
+                <td>58,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>7/4/2018</td>
+                <td>56,86</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5ed22ffc-d53d-48fb-bb68-f33b369f05e1</td>
+                <td>="8190149129472606"</td>
+                <td>panayos_1990@yahoo.gr</td>
+                <td>="6982279503"</td>
+                <td>="Seminar ID: 1775"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="000093"</td>
+                <td>6/4/2018</td>
+                <td>10:03:07</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>ΛΑΜΠΡΑΚΗΣ ΠΑΝΑΓΙΩΤΗΣ</td>
+                <td></td>
+                <td></td>
+                <td>58,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>7/4/2018</td>
+                <td>56,86</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>92128ce6-f0cc-43fc-936b-27c7e2cb9198</td>
+                <td>="3616688612072609"</td>
+                <td>stefanosntispirakis@gmail.com</td>
+                <td>="6955998698"</td>
+                <td>="Seminar ID: 1769"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="091917"</td>
+                <td>5/4/2018</td>
+                <td>19:20:14</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Ntispirakis Stefanos</td>
+                <td></td>
+                <td></td>
+                <td>117,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>6/4/2018</td>
+                <td>112,66</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5f7d54fb-128f-44e1-a28c-21db0829c36b</td>
+                <td>="8409082680872609"</td>
+                <td>marypetraki@hotmail.com</td>
+                <td>="6943424005"</td>
+                <td>="Seminar ID: 1775"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="538161"</td>
+                <td>5/4/2018</td>
+                <td>17:18:29</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>ΑΝΔΡΟΥΛΑΚΗΣ  ΛΟΥΚΑΣ</td>
+                <td></td>
+                <td></td>
+                <td>58,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>6/4/2018</td>
+                <td>56,86</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>ae22c835-5814-4c5a-86cf-651d82ded8c4</td>
+                <td>="7337582216472605"</td>
+                <td>kostaspetrakis110@gmail.com</td>
+                <td>="6948564532"</td>
+                <td>="Seminar ID: 1775"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="736498"</td>
+                <td>5/4/2018</td>
+                <td>15:53:57</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Πετρακης  Κώστας </td>
+                <td></td>
+                <td></td>
+                <td>58,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>6/4/2018</td>
+                <td>56,86</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>23056b4c-90ae-45ef-92c8-3169e99eca11</td>
+                <td>="7313132009972609"</td>
+                <td>pd@kydonhotel.com</td>
+                <td>="2821052280"</td>
+                <td>="Seminar ID: 1771"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="051453"</td>
+                <td>5/4/2018</td>
+                <td>14:41:53</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>ΚΥΔΩΝ Α.Ε THE HEART CITY HOTEL</td>
+                <td></td>
+                <td></td>
+                <td>175,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>6/4/2018</td>
+                <td>169,12</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4c8406d3-b206-4db7-86c5-089311a9dfa6</td>
+                <td>="2253286123572604"</td>
+                <td>pd@kydonhotel.com</td>
+                <td>="2821052280"</td>
+                <td>="Seminar ID: 1769"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="051413"</td>
+                <td>5/4/2018</td>
+                <td>14:34:13</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>ΚΥΔΩΝ Α.Ε THE HEART CITY HOTEL</td>
+                <td></td>
+                <td></td>
+                <td>175,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>6/4/2018</td>
+                <td>169,12</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>29c6c7bf-b458-4dae-acae-2203dc118dbd</td>
+                <td>="7301865076472607"</td>
+                <td>koundourakis@yahoo.com</td>
+                <td>="6944771927"</td>
+                <td>="Seminar ID: 1777"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="035523"</td>
+                <td>2/4/2018</td>
+                <td>23:36:42</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>ΚΟΥΝΔΟΥΡΑΚΗΣ ΙΩΣΗΦ</td>
+                <td></td>
+                <td></td>
+                <td>52,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>3/4/2018</td>
+                <td>50,51</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>a0886418-0d78-42aa-9662-62b2bb5ea999</td>
+                <td>="3507709421272608"</td>
+                <td>koundourakis@yahoo.com</td>
+                <td>="6944771927"</td>
+                <td>="Seminar ID: 1775"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="010629"</td>
+                <td>2/4/2018</td>
+                <td>23:35:07</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>ΚΟΥΝΔΟΥΡΑΚΗΣ ΙΩΣΗΦ</td>
+                <td></td>
+                <td></td>
+                <td>52,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>3/4/2018</td>
+                <td>50,51</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8d91d1c5-908b-4ece-a003-87b3b58f8fa2</td>
+                <td>="9131983846772604"</td>
+                <td>karamelasalexis@gmail.com</td>
+                <td>="6972691363"</td>
+                <td>="Seminar ID: 1775"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="000550"</td>
+                <td>2/4/2018</td>
+                <td>21:08:53</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Κουτέντακης  Αλέξανδρος </td>
+                <td></td>
+                <td></td>
+                <td>52,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>3/4/2018</td>
+                <td>50,51</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9f0c11aa-6544-4611-aa65-237e6a35faf3</td>
+                <td>="5286757955772602"</td>
+                <td>karamelasalexis@gmail.com</td>
+                <td>="6972691363"</td>
+                <td>="Seminar ID: 1777"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="000543"</td>
+                <td>2/4/2018</td>
+                <td>21:06:27</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Κουτέντακης  Αλέξανδρος </td>
+                <td></td>
+                <td></td>
+                <td>52,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>3/4/2018</td>
+                <td>50,51</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>08cb87d2-7f50-4560-9743-fb265a4537c6</td>
+                <td>="9334943532672604"</td>
+                <td>kikitsontaki@gmail.com</td>
+                <td>="6982441029"</td>
+                <td>="Seminar ID: 1769"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="766947"</td>
+                <td>2/4/2018</td>
+                <td>08:22:15</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Τσοντακη Κικη</td>
+                <td></td>
+                <td></td>
+                <td>117,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>3/4/2018</td>
+                <td>113,95</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9f8e5b63-3bf2-475a-bf90-287d4e7e5b08</td>
+                <td>="1080129309972605"</td>
+                <td>stavros_pro.bartender@yahoo.gr</td>
+                <td>="6937081333"</td>
+                <td>="Seminar ID: 1775"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="121419"</td>
+                <td>1/4/2018</td>
+                <td>14:56:19</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Βασιλειάδης Σταύρος</td>
+                <td></td>
+                <td></td>
+                <td>52,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>2/4/2018</td>
+                <td>50,51</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>306099b2-e067-43fe-b8a2-8a917b087e84</td>
+                <td>="2944401114772603"</td>
+                <td>tomadakisantonis@gmail.com</td>
+                <td>="6973694450"</td>
+                <td>="Seminar ID: 1769"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="759041"</td>
+                <td>29/3/2018</td>
+                <td>23:00:43</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Τωμαδάκης Αντώνης</td>
+                <td></td>
+                <td></td>
+                <td>58,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>30/3/2018</td>
+                <td>56,86</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9dbed8e3-2221-4889-8543-2b4b42613a95</td>
+                <td>="7986777887872606"</td>
+                <td>info@caper.gr</td>
+                <td>=""</td>
+                <td>="CostoMenu package: short"</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="514371"</td>
+                <td>29/3/2018</td>
+                <td>12:54:47</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>ΑΝΔΡΕΑΣ ΔΗΜΟΠΟΥΛΟΣ</td>
+                <td></td>
+                <td></td>
+                <td>24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>30/3/2018</td>
+                <td>23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9c4b9b51-1be1-4571-97ce-7deb629f1fdd</td>
+                <td>="5174878830872601"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="050175"</td>
+                <td>27/3/2018</td>
+                <td>14:02:56</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>ΠΕΤΡΟΣ ΠΑΝΟΥ</td>
+                <td></td>
+                <td></td>
+                <td>24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>28/3/2018</td>
+                <td>23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>c721dc77-26bf-4a1f-982b-9750fe3ad87e</td>
+                <td>="9140267961272600"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="722067"</td>
+                <td>11/3/2018</td>
+                <td>21:30:40</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>EMMANOUIL SMYRLAKIS</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>12/3/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>d54d7e43-e276-4f8c-b788-74a623587801</td>
+                <td>="4579467937372600"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="071020"</td>
+                <td>4/3/2018</td>
+                <td>10:26:19</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>Παναγιώτης Τσιάβος</td>
+                <td></td>
+                <td></td>
+                <td>24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>5/3/2018</td>
+                <td>23,69</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>115821ce-6b02-4483-8b96-bac5e2fb3913</td>
+                <td>="7964549217572605"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="277087"</td>
+                <td>1/3/2018</td>
+                <td>19:01:03</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>Markos Pnevmatikos</td>
+                <td></td>
+                <td></td>
+                <td>24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>2/3/2018</td>
+                <td>23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>72209073-7b7a-4d17-a0ef-ff1dcf2074ad</td>
+                <td>="1729257551072604"</td>
+                <td>corallia.beach@cytanet.com.cy</td>
+                <td>="99418745"</td>
+                <td>="Seminar ID: 1734"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="882740"</td>
+                <td>28/2/2018</td>
+                <td>11:13:50</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>AFSTRALOS ANTONIS</td>
+                <td></td>
+                <td></td>
+                <td>60,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>1/3/2018</td>
+                <td>58,32</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>01e501c5-a6b7-4e09-b3ea-98f91ef35690</td>
+                <td>="4719969936472607"</td>
+                <td>corallia.beach@cytanet.com.cy</td>
+                <td>="99418745"</td>
+                <td>="Seminar ID: 1732"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="882435"</td>
+                <td>28/2/2018</td>
+                <td>11:10:20</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>AFSTRALOS ANTONIS</td>
+                <td></td>
+                <td></td>
+                <td>60,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>1/3/2018</td>
+                <td>58,32</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>c213450f-51e2-487f-ad3c-f4e7cc617616</td>
+                <td>="6802729816472604"</td>
+                <td>georgechimonides@gmail.com</td>
+                <td>="99329032"</td>
+                <td>="Seminar ID: 1732"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="235656"</td>
+                <td>23/2/2018</td>
+                <td>19:43:23</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Chimonides George</td>
+                <td></td>
+                <td></td>
+                <td>60,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>24/2/2018</td>
+                <td>58,32</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4da04e1f-eeab-4b14-aa1a-52b6f26de37a</td>
+                <td>="9371716132572601"</td>
+                <td>echioti@avacom.net</td>
+                <td>="99516316"</td>
+                <td>="Seminar ID: 1732"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="767600"</td>
+                <td>23/2/2018</td>
+                <td>17:07:52</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Ιωάννου Χιώτη Ευανθία</td>
+                <td></td>
+                <td></td>
+                <td>60,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>24/2/2018</td>
+                <td>58,32</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>b955fd79-06c9-440a-b585-e54390d74199</td>
+                <td>="3840642974272607"</td>
+                <td>echioti@avacom.net</td>
+                <td>="99516316"</td>
+                <td>="Seminar ID: 1734"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="711080"</td>
+                <td>23/2/2018</td>
+                <td>17:00:40</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Ιώαννου Χίωτη Ευανθία</td>
+                <td></td>
+                <td></td>
+                <td>54,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>24/2/2018</td>
+                <td>52,46</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7d47341b-6bcc-491f-a1f3-9ac49293f16b</td>
+                <td>="4296310235572604"</td>
+                <td>zirin_1@hotmail.com</td>
+                <td>="96625505"</td>
+                <td>="Seminar ID: 1734"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="178165"</td>
+                <td>22/2/2018</td>
+                <td>21:11:35</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>zirinoglou dimitris </td>
+                <td></td>
+                <td></td>
+                <td>54,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>23/2/2018</td>
+                <td>52,46</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7fffc095-746c-4605-9a0d-46331ceae894</td>
+                <td>="2694751516872607"</td>
+                <td>zirin_1@hotmail.com</td>
+                <td>="96625505"</td>
+                <td>="Seminar ID: 1732"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="369632"</td>
+                <td>22/2/2018</td>
+                <td>20:09:55</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Zirinoglou Dimitrios</td>
+                <td></td>
+                <td></td>
+                <td>54,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>23/2/2018</td>
+                <td>52,46</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>f2178fe6-9c70-4e35-bb4e-9588b94b48de</td>
+                <td>="3817457893172604"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="409035"</td>
+                <td>15/2/2018</td>
+                <td>10:35:17</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>EFSTATHIOS ARVANITIS</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>16/2/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3d5100b3-8407-47f5-9fa3-81edd6b73e86</td>
+                <td>="2540807963972601"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="812918"</td>
+                <td>9/2/2018</td>
+                <td>16:17:20</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>Economidis Georgios</td>
+                <td></td>
+                <td></td>
+                <td>24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>10/2/2018</td>
+                <td>23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>0f010056-d623-4bdc-8d12-7118be6a53c1</td>
+                <td>="7452028548172602"</td>
+                <td>sotirisdelakovias@hotmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu package: long"</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="922025"</td>
+                <td>5/2/2018</td>
+                <td>13:47:32</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>Σωτήρης  Δελακοβίας </td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>6/2/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>f42fc086-f047-4a78-ba28-3c3caca49a49</td>
+                <td>="2474907712872602"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="640389"</td>
+                <td>5/2/2018</td>
+                <td>09:41:15</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>arrighini donatella</td>
+                <td></td>
+                <td></td>
+                <td>50,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>6/2/2018</td>
+                <td>48,56</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>e1f8e8fc-9e91-4f21-ab76-2bc12ee71144</td>
+                <td>="5590446183972607"</td>
+                <td>chrisandr2000@gmail.com</td>
+                <td>="6946368801"</td>
+                <td>="Seminar ID: 1575"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="141531"</td>
+                <td>3/2/2018</td>
+                <td>15:41:30</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Ανδρεά Χριστίνα</td>
+                <td></td>
+                <td></td>
+                <td>65,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>4/2/2018</td>
+                <td>63,20</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>fd6f1371-bcc6-4ee1-8207-dc2362eb94b0</td>
+                <td>="2853438620472606"</td>
+                <td>chrisandr2000@gmail.com</td>
+                <td>="6946368801"</td>
+                <td>="Seminar ID: 1586"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="141755"</td>
+                <td>2/2/2018</td>
+                <td>17:10:53</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Ανδρεά Χριστίνα</td>
+                <td></td>
+                <td></td>
+                <td>65,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>3/2/2018</td>
+                <td>63,20</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>d9ade4a0-5c01-4b42-84b8-15481daa0388</td>
+                <td>="4201303566472603"</td>
+                <td>panos1989pr@gmail.com</td>
+                <td>="6956461322"</td>
+                <td>="Seminar ID: 1575"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="124671"</td>
+                <td>1/2/2018</td>
+                <td>11:55:01</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>ΠΡΑΣΣΑΣ ΠΑΝΑΓΙΩΤΗΣ</td>
+                <td></td>
+                <td></td>
+                <td>65,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>2/2/2018</td>
+                <td>63,20</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6e8bd043-b137-4032-a16a-633ed26205ee</td>
+                <td>="5326378988672604"</td>
+                <td>panos1989pr@gmail.com</td>
+                <td>="6956491322"</td>
+                <td>="Seminar ID: 1586"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="116984"</td>
+                <td>1/2/2018</td>
+                <td>11:48:47</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Πρασσάς  Παναγιώτης </td>
+                <td></td>
+                <td></td>
+                <td>65,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>2/2/2018</td>
+                <td>63,20</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>20fd5da2-c959-42fd-8f68-e1dfd4262585</td>
+                <td>="7313997540272601"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="121516"</td>
+                <td>31/1/2018</td>
+                <td>15:10:13</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>ΜΠΙΣΙΛΚΑΣ ΧΡΗΣΤΟΣ</td>
+                <td></td>
+                <td></td>
+                <td>31,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>1/2/2018</td>
+                <td>29,67</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>237e734b-f62b-46c4-ad73-4d06866b693f</td>
+                <td>="1673841707772608"</td>
+                <td>hountris@yahoo.gr</td>
+                <td>="6982160339"</td>
+                <td>="Seminar ID: 1586"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="999830"</td>
+                <td>30/1/2018</td>
+                <td>19:11:14</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Καραχούντρης  Δημήτρης </td>
+                <td></td>
+                <td></td>
+                <td>65,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>31/1/2018</td>
+                <td>63,20</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4be76977-9d16-4525-8984-0b6d265568b3</td>
+                <td>="2690391865472605"</td>
+                <td>cfenia.papageorgiou@gmail.com</td>
+                <td>="6974555654"</td>
+                <td>="Seminar ID: 1586"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="654203"</td>
+                <td>30/1/2018</td>
+                <td>13:21:30</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>ΠΑΠΑΓΕΩΡΓΙΟΥ ΧΡΥΣΑΦΕΝΙΑ</td>
+                <td></td>
+                <td></td>
+                <td>130,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>31/1/2018</td>
+                <td>126,64</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>19afab9a-3205-4642-a27c-8e25f2425687</td>
+                <td>="9307274824172601"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="933743"</td>
+                <td>29/1/2018</td>
+                <td>23:51:47</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>N G EFSTATHIADIS</td>
+                <td></td>
+                <td></td>
+                <td>24,80</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>30/1/2018</td>
+                <td>23,96</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>0c388cf6-f364-49d9-bec3-935e1f4037d1</td>
+                <td>="2306444869172602"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="712376"</td>
+                <td>29/1/2018</td>
+                <td>11:26:46</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>ΘΕΟΔΩΡΟΣ ΖΩΤΤΑΣ</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>30/1/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7d81e091-ec6d-475a-9485-b63e89ffa7a2</td>
+                <td>="2183880524772609"</td>
+                <td>ngiannopoulos@hotmail.com</td>
+                <td>="6946549055"</td>
+                <td>="Seminar ID: 1575"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="282047"</td>
+                <td>26/1/2018</td>
+                <td>18:53:04</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Γιαννόπουλος Νικόλαος</td>
+                <td></td>
+                <td></td>
+                <td>65,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>27/1/2018</td>
+                <td>63,20</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4f54dae7-a19e-47a9-88b7-7585e768a5bf</td>
+                <td>="7376669065872606"</td>
+                <td>ngiannopoulos@hotmail.com</td>
+                <td>="6946549055"</td>
+                <td>="Seminar ID: 1586"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="277996"</td>
+                <td>26/1/2018</td>
+                <td>18:49:36</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Γιαννόπουλος Νικόλαος</td>
+                <td></td>
+                <td></td>
+                <td>65,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>27/1/2018</td>
+                <td>63,20</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>e471ccc0-e2ae-40ca-9848-fe43228ee0be</td>
+                <td>="7019242379372605"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="292460"</td>
+                <td>26/1/2018</td>
+                <td>13:51:59</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>SPYRIDON KOSIAVELOS</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>27/1/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>f7e33794-7992-4887-9826-eff6d3a1314d</td>
+                <td>="9415139958372608"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="171316"</td>
+                <td>25/1/2018</td>
+                <td>13:40:16</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>D.S.SPILIOPOULOS</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>26/1/2018</td>
+                <td>59,59</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>94d4ce0f-f96f-4d5d-9569-b95af87120d2</td>
+                <td>="5435080435072604"</td>
+                <td>maxoula1@hotmail.com</td>
+                <td>="6989212363"</td>
+                <td>="Seminar ID: 1586"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="042215"</td>
+                <td>24/1/2018</td>
+                <td>22:37:15</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>ΚΑΤΣΟΥΛΑ ΑΝΔΡΟΜΑΧΗ</td>
+                <td></td>
+                <td></td>
+                <td>65,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>25/1/2018</td>
+                <td>62,48</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>b515b8ff-3c1c-493b-b0b3-b922efcdf20b</td>
+                <td>="4102945283272601"</td>
+                <td>vasilaras990@gmail.com</td>
+                <td>="6945321196"</td>
+                <td>="Seminar ID: 1420"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="447422"</td>
+                <td>18/1/2018</td>
+                <td>20:55:01</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>ΒΑΣΙΛΑΡΑΣ ΙΩΑΝΝΗΣ</td>
+                <td></td>
+                <td></td>
+                <td>65,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>19/1/2018</td>
+                <td>63,20</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>879fc085-b4f6-4ab5-80ee-44a057c72e9b</td>
+                <td>="2845630531872609"</td>
+                <td>vasilaras990@gmail.com</td>
+                <td>="6945321196"</td>
+                <td>="Seminar ID: 1415"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="444697"</td>
+                <td>18/1/2018</td>
+                <td>20:50:45</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>ΒΑΣΙΛΑΡΑΣ ΙΩΑΝΝΗΣ</td>
+                <td></td>
+                <td></td>
+                <td>65,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>19/1/2018</td>
+                <td>63,20</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>c1706685-8f0b-499d-ab3f-bef0ca71b81e</td>
+                <td>="4997745818872608"</td>
+                <td>nickhatzidakis@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>=""</td>
+                <td>16/1/2018</td>
+                <td>16:15:34</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>ΝΙΚΟΛΑΟΣ ΧΑΤΖΗΔΑΚΗΣ</td>
+                <td></td>
+                <td></td>
+                <td>-62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Web POS</td>
+                <td>Επιτυχημένη</td>
+                <td>Ακύρωση Χρέωσης</td>
+                <td></td>
+                <td></td>
+                <td>-60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>270404f8-edb2-49bc-889b-2d07126d2038</td>
+                <td>="9990759520472601"</td>
+                <td>nickhatzidakis@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>=""</td>
+                <td>16/1/2018</td>
+                <td>16:14:50</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>ΝΙΚΟΛΑΟΣ ΧΑΤΖΗΔΑΚΗΣ</td>
+                <td></td>
+                <td></td>
+                <td>-62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Web POS</td>
+                <td>Επιτυχημένη</td>
+                <td>Ακύρωση Χρέωσης</td>
+                <td></td>
+                <td></td>
+                <td>-60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>e77cf532-c4c7-43eb-b2a2-2b2976692261</td>
+                <td>="7963131795772606"</td>
+                <td>nickhatzidakis@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>=""</td>
+                <td>16/1/2018</td>
+                <td>16:12:47</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>ΝΙΚΟΛΑΟΣ ΧΑΤΖΗΔΑΚΗΣ</td>
+                <td></td>
+                <td></td>
+                <td>-62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Web POS</td>
+                <td>Επιτυχημένη</td>
+                <td>Ακύρωση Χρέωσης</td>
+                <td></td>
+                <td></td>
+                <td>-60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>32e1a368-92c8-407c-bde6-6f558eda54a3</td>
+                <td>="5619415063672607"</td>
+                <td>nickhatzidakis@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu package: long"</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="231949"</td>
+                <td>16/1/2018</td>
+                <td>15:52:04</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>ΝΙΚΟΛΑΟΣ ΧΑΤΖΗΔΑΚΗΣ</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>17/1/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2e4c6f8f-16a0-4aec-bee8-13809af582cb</td>
+                <td>="7963131795772606"</td>
+                <td>nickhatzidakis@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu package: long"</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="604161"</td>
+                <td>16/1/2018</td>
+                <td>15:51:07</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>ΝΙΚΟΛΑΟΣ ΧΑΤΖΗΔΑΚΗΣ</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Ακυρωμένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td></td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>96abd9c0-7147-4993-a8f9-d7dcb40ee580</td>
+                <td>="9990759520472601"</td>
+                <td>nickhatzidakis@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu package: long"</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="604086"</td>
+                <td>16/1/2018</td>
+                <td>15:49:55</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>ΝΙΚΟΛΑΟΣ ΧΑΤΖΗΔΑΚΗΣ</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Ακυρωμένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td></td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>03b9c76e-9100-49d1-96d8-b6536e1f2eb6</td>
+                <td>="4997745818872608"</td>
+                <td>nickhatzidakis@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu package: long"</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="604093"</td>
+                <td>16/1/2018</td>
+                <td>15:49:53</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>ΝΙΚΟΛΑΟΣ ΧΑΤΖΗΔΑΚΗΣ</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Ακυρωμένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td></td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>996ff17d-a866-49e9-b930-5b696667e37e</td>
+                <td>="5963215545472607"</td>
+                <td>stheologou94@gmail.com</td>
+                <td>="69879904802108042299"</td>
+                <td>="Seminar ID: 1575"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="495662"</td>
+                <td>15/1/2018</td>
+                <td>14:17:43</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Θεολογου Σπυριδων</td>
+                <td></td>
+                <td></td>
+                <td>58,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>16/1/2018</td>
+                <td>56,86</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>653efa45-f42a-4334-98cb-9b52cc4f44f8</td>
+                <td>="7720343320072603"</td>
+                <td>stheologou94@gmail.com</td>
+                <td>="69879904802108042299"</td>
+                <td>="Seminar ID: 1586"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="495661"</td>
+                <td>15/1/2018</td>
+                <td>14:15:20</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Θεολογου Σπυριδων</td>
+                <td></td>
+                <td></td>
+                <td>58,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>16/1/2018</td>
+                <td>56,86</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>245f3e1a-ad20-448d-b52a-21c769b0e5c6</td>
+                <td>="1068327791772606"</td>
+                <td>stavros.tza34@gmail.com</td>
+                <td>="6931840842"</td>
+                <td>="Seminar ID: 1586"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="833722"</td>
+                <td>13/1/2018</td>
+                <td>11:01:08</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>tzavaras stavros tzavaras</td>
+                <td></td>
+                <td></td>
+                <td>58,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>14/1/2018</td>
+                <td>56,86</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8ab0660c-e128-4a2c-92ac-231e38e0af56</td>
+                <td>="1570565248372601"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="042032"</td>
+                <td>10/1/2018</td>
+                <td>20:24:30</td>
+                <td>="2321"</td>
+                <td>CostoMenu App</td>
+                <td>ANASTASIOS S. KAZOS</td>
+                <td></td>
+                <td></td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>11/1/2018</td>
+                <td>60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="70000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>f4a19293-a6b5-4e24-927e-640bd0e2faa3</td>
+                <td>="1547792494172605"</td>
+                <td>yniw.pali@gmail.com</td>
+                <td>="6930148630"</td>
+                <td>="Seminar ID: 1420"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="745214"</td>
+                <td>9/1/2018</td>
+                <td>10:10:48</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Παλιούρα-Τουρλάκη Μυρσίνη</td>
+                <td></td>
+                <td></td>
+                <td>58,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>10/1/2018</td>
+                <td>56,86</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>f958a00b-9843-44a9-af97-f6ed1bbc91f6</td>
+                <td>="2562860980372602"</td>
+                <td>yniw.pali@gmail.com</td>
+                <td>="6930148630"</td>
+                <td>="Seminar ID: 1415"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="745028"</td>
+                <td>9/1/2018</td>
+                <td>10:04:24</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Παλιούρα-Τουρλάκη Μυρσίνη</td>
+                <td></td>
+                <td></td>
+                <td>58,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>10/1/2018</td>
+                <td>56,86</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83800685"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6667cb6d-cdd5-49f1-87e9-0b818dbd7cc1</td>
+                <td>="9810288715072601"</td>
+                <td>penelope@aberratio.com</td>
+                <td>="6945164118"</td>
+                <td>="Seminar ID: 1415"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="745733"</td>
+                <td>4/1/2018</td>
+                <td>23:58:30</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>τζανου πηνελοπη</td>
+                <td></td>
+                <td></td>
+                <td>58,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>5/1/2018</td>
+                <td>56,86</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83805799"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>33361551-4bb5-4103-a0ef-8baa137884a2</td>
+                <td>="6422961579472606"</td>
+                <td>kalis89@msn.com</td>
+                <td>="6987797067"</td>
+                <td>="Seminar ID: 1420"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="094972"</td>
+                <td>4/1/2018</td>
+                <td>00:33:43</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Κουλουρης Νικολαος</td>
+                <td></td>
+                <td></td>
+                <td>58,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>5/1/2018</td>
+                <td>56,86</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="60000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>e95cec2f-2c15-47d8-8cc1-54f1d0c6720b</td>
+                <td>="2607632752072601"</td>
+                <td>kalis89@msn.com</td>
+                <td>="6987797067"</td>
+                <td>="Seminar ID: 1415"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="087170"</td>
+                <td>3/1/2018</td>
+                <td>22:40:07</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>ΚΟΥΛΟΥΡΗΣ ΝΙΚΟΛΑΟΣ</td>
+                <td></td>
+                <td></td>
+                <td>58,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>4/1/2018</td>
+                <td>56,86</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="60000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>aa692b2c-cea1-4743-bdaa-933324246ed8</td>
+                <td>="2328427652672607"</td>
+                <td>c.katsavounidi@gmail.com</td>
+                <td>="6978117212"</td>
+                <td>="Seminar ID: 1575"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="613600"</td>
+                <td>3/1/2018</td>
+                <td>01:58:48</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>ΚΑΤΣΑΒΟΥΝΙΔΗ ΧΡΥΣΑ</td>
+                <td></td>
+                <td></td>
+                <td>45,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>4/1/2018</td>
+                <td>44,17</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="60000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>de9efc7c-966a-4b08-832e-b5d931b28ba2</td>
+                <td>="5362913222172607"</td>
+                <td>c.katsavounidi@gmail.com</td>
+                <td>="6978117212"</td>
+                <td>="Seminar ID: 1586"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="613599"</td>
+                <td>3/1/2018</td>
+                <td>01:52:41</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>Κατσαβουνιδη Χρυσα</td>
+                <td></td>
+                <td></td>
+                <td>45,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>4/1/2018</td>
+                <td>44,17</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="60000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>79dbc6fb-8070-4dc4-a01e-109dc827b8ad</td>
+                <td>="9090302540472607"</td>
+                <td>kostales23@yahoo.gr</td>
+                <td>="6986727302"</td>
+                <td>="Seminar ID: 1575"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="789294"</td>
+                <td>2/1/2018</td>
+                <td>09:59:50</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>ΤΖΙΜΟΣ ΚΩΣΤΑΣ</td>
+                <td></td>
+                <td></td>
+                <td>45,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>3/1/2018</td>
+                <td>44,17</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83805799"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>e902bf18-bdad-4914-b94e-32cd86c7141b</td>
+                <td>="4515505649372605"</td>
+                <td>kostales23@yahoo.gr</td>
+                <td>="6986727302"</td>
+                <td>="Seminar ID: 1586"</td>
+                <td>="
+                    FnB Master Classes Seminar
+
+                "</td>
+                <td>="832287"</td>
+                <td>2/1/2018</td>
+                <td>09:58:35</td>
+                <td>="9288"</td>
+                <td>FnB Master Classes</td>
+                <td>ΤΖΙΜΟΣ ΚΩΣΤΑΣ</td>
+                <td></td>
+                <td></td>
+                <td>45,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>NativeCheckout</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>3/1/2018</td>
+                <td>44,17</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="83805799"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

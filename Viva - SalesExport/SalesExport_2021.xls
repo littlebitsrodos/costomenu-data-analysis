@@ -1,0 +1,4934 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Sales Export</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Κωδ. Συν/γης (Viva)</th>
+                <th>Κωδικός Πληρωμής Viva Payments</th>
+                <th>E-mail</th>
+                <th>Τηλέφωνο</th>
+                <th>Περιγραφή Εμπόρου</th>
+                <th>Περιγραφή Πελάτη</th>
+                <th>Κωδ. Έγκρισης</th>
+                <th>Ημ/νία</th>
+                <th>Ώρα</th>
+                <th>Πηγή</th>
+                <th>Περιγραφή Πηγής</th>
+                <th>Πελάτης</th>
+                <th>Αριθμός Κάρτας</th>
+                <th>Τύπος Κάρτας</th>
+                <th>Ποσό</th>
+                <th>Α/Α Δόσης</th>
+                <th>Δεσμευμένο ποσό</th>
+                <th>Ποσό Φιλοδωρήματος</th>
+                <th>Ποσό Εξαργύρωσης</th>
+                <th>Ποσό Προσαύξησης</th>
+                <th>Κανάλι</th>
+                <th>Κατάσταση</th>
+                <th>Τύπος</th>
+                <th>Ετικέτες</th>
+                <th>Ημ/νία Εκκαθάρισης</th>
+                <th>Καθαρό ποσό Εμπόρου</th>
+                <th>Interchange Fee</th>
+                <th>Χρέωση Σχημάτων</th>
+                <th>Προμήθεια</th>
+                <th>Τέλη ISV</th>
+                <th>Κωδικός Τερματικού</th>
+                <th>Απόκριση του issuer</th>
+                <th>Αρχικό ποσό</th>
+                <th>Αρχικό νόμισμα</th>
+                <th>Conversion rate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1b129823-527c-41d7-9a72-d0778d5f816a</td>
+                <td>="8848882774272604"</td>
+                <td>grecocinabilbao@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="849660"</td>
+                <td>31/12/2021</td>
+                <td>17:27:29</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Antonis Pantelias</td>
+                <td>548901XXXXXX4206</td>
+                <td>Mastercard</td>
+                <td>100,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>1/1/2022</td>
+                <td>97,35</td>
+                <td>0,20</td>
+                <td>0,15</td>
+                <td>2,30</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>cc602806-69f6-4e9f-be84-e00e306f73ca</td>
+                <td>="2140370272072609"</td>
+                <td>vasilisprodromitis@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="446690"</td>
+                <td>30/12/2021</td>
+                <td>20:25:40</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Βασίλειος Προδρομίτης</td>
+                <td>516732XXXXXX3430</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>31/12/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>e9b4abdd-e34b-49c2-9beb-16a67bf0e7dc</td>
+                <td>="2678263491672604"</td>
+                <td>georgevaxavanelis@hotmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu REGISTRATION"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="715924"</td>
+                <td>27/12/2021</td>
+                <td>19:29:38</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>George Vaxavanelis Vaxavanelis</td>
+                <td>537534XXXXXX1618</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>28/12/2021</td>
+                <td>59,27</td>
+                <td>1,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>867cbb31-0b4c-4cf0-8bd4-da8ea2cd8b23</td>
+                <td>="1181447517072603"</td>
+                <td>info@italida.gr</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="384027"</td>
+                <td>27/12/2021</td>
+                <td>12:23:01</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>OLYMPIA GIANNOUTSOU</td>
+                <td>537535XXXXXX5422</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>28/12/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>f8eeace2-fff0-4b34-b299-7dde58ca8573</td>
+                <td>="3811886635272602"</td>
+                <td>margaritasideridou@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu REGISTRATION"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="886508"</td>
+                <td>21/12/2021</td>
+                <td>12:15:12</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Sideridou Margarita</td>
+                <td>535195XXXXXX1495</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>22/12/2021</td>
+                <td>59,27</td>
+                <td>1,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>c8529e49-6cfb-4e94-b346-7d8c9bea52dc</td>
+                <td>="2149287528672601"</td>
+                <td>iek@eurotraining.gr</td>
+                <td>=""</td>
+                <td>="CostoMenu REGISTRATION"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="504257"</td>
+                <td>16/12/2021</td>
+                <td>16:50:49</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Georgios Zotakis</td>
+                <td>535195XXXXXX3209</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>17/12/2021</td>
+                <td>59,27</td>
+                <td>1,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>a18dc43b-6314-4af7-9f4b-4680c74edaaf</td>
+                <td>="7544728463672600"</td>
+                <td>gggia95@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="790750"</td>
+                <td>14/12/2021</td>
+                <td>18:04:04</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>ΙΩΑΝΝΗΣ ΖΑΡΚΑΔΟΥΛΑΣ</td>
+                <td>516297XXXXXX2886</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>15/12/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>998af391-eb37-4b92-a3ad-db54cc284a6f</td>
+                <td>="7029074333872606"</td>
+                <td>thkormpis@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="484325"</td>
+                <td>11/12/2021</td>
+                <td>18:27:09</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Θάνος Κορμπής</td>
+                <td>516732XXXXXX5697</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>12/12/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>59bc6a48-2480-4e0e-bc80-868468dabf26</td>
+                <td>="6314734522572609"</td>
+                <td>dimitrioskasapidis@hotmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="050624"</td>
+                <td>10/12/2021</td>
+                <td>17:58:34</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>dimitrios kasapidis</td>
+                <td>547268XXXXXX0578</td>
+                <td>Mastercard</td>
+                <td>124,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>11/12/2021</td>
+                <td>118,97</td>
+                <td>2,05</td>
+                <td>0,19</td>
+                <td>2,79</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>764cb646-4bb1-416a-8a3c-6cedd7be0f48</td>
+                <td>="1023326628872604"</td>
+                <td>mariafolei2005@hotmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu REGISTRATION"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="609651"</td>
+                <td>8/12/2021</td>
+                <td>17:15:23</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Μαρία Βολογιάννη</td>
+                <td>535142XXXXXX0106</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>9/12/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3aa8a6f4-062e-4188-87c5-7ed5d7f9cfc5</td>
+                <td>="6584055353772607"</td>
+                <td>MANAGER@PORTARIAHOTEL.GR</td>
+                <td>=""</td>
+                <td>="CostoMenu REGISTRATION"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="296586"</td>
+                <td>30/11/2021</td>
+                <td>18:39:44</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>ΓΙΩΡΓΟΣ ΘΕΟΔΩΡΟΥ</td>
+                <td>535143XXXXXX2649</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>1/12/2021</td>
+                <td>59,27</td>
+                <td>1,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4124c909-dbc1-41b5-aa6d-88f8b6d49c89</td>
+                <td>="3200037860872608"</td>
+                <td>georgios.kontas@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="486245"</td>
+                <td>28/11/2021</td>
+                <td>23:08:20</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Γεώργιος Κόντας</td>
+                <td>535142XXXXXX0486</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>29/11/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>21936ad8-5320-46c2-b92c-9ed196e857b5</td>
+                <td>="5434038150672602"</td>
+                <td>ventouratos.a@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu REGISTRATION"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="301234"</td>
+                <td>26/11/2021</td>
+                <td>22:52:14</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Alexandros Ventouratos</td>
+                <td>479273XXXXXX7202</td>
+                <td>Visa</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>27/11/2021</td>
+                <td>60,20</td>
+                <td>0,19</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6268a55d-1061-46af-a7b2-f724e7500c7c</td>
+                <td>="5170015637172603"</td>
+                <td>panosmr2@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="958285"</td>
+                <td>25/11/2021</td>
+                <td>08:17:50</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Παναγιώτης Δημητρέκος</td>
+                <td>527890XXXXXX2302</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>26/11/2021</td>
+                <td>60,20</td>
+                <td>0,19</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>73b5f6b9-4a00-4599-8c09-5690bc78d5bc</td>
+                <td>="5792113632472605"</td>
+                <td>webmaster@il-fiore.gr</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="721605"</td>
+                <td>24/11/2021</td>
+                <td>14:24:52</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Gregory Batsikas</td>
+                <td>405784XXXXXX0120</td>
+                <td>Visa</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>25/11/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>be6d1fa6-f474-4a90-bc96-79b1283a3d4e</td>
+                <td>="3201982486772609"</td>
+                <td>koutouki.g@hotmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu REGISTRATION"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="359669"</td>
+                <td>21/11/2021</td>
+                <td>16:31:42</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Δημήτριος Τσαπάρας</td>
+                <td>516838XXXXXX9832</td>
+                <td>Mastercard</td>
+                <td>124,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>22/11/2021</td>
+                <td>120,77</td>
+                <td>0,25</td>
+                <td>0,19</td>
+                <td>2,79</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>58787023-f1c3-4535-8675-83350723135e</td>
+                <td>="3503266569172604"</td>
+                <td>lab_pgr@hotmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="281670"</td>
+                <td>21/11/2021</td>
+                <td>13:38:23</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Lampros fotopoulos</td>
+                <td>516838XXXXXX3086</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>22/11/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>f3c061b5-32db-47eb-9cbf-543f4b681f8c</td>
+                <td>="9328305987772601"</td>
+                <td>m.mariavaria@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="904925"</td>
+                <td>20/11/2021</td>
+                <td>17:22:08</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Μαρια Βαρια</td>
+                <td>442317XXXXXX8310</td>
+                <td>Visa</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>21/11/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>06d318c0-a079-4321-9fd0-e5b747f099c3</td>
+                <td>="1693905290772605"</td>
+                <td>dimitris.o.soultan@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="994766"</td>
+                <td>19/11/2021</td>
+                <td>19:29:54</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>dimitris davlis</td>
+                <td>535143XXXXXX6757</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>20/11/2021</td>
+                <td>59,27</td>
+                <td>1,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>bca028d6-61e1-4817-98a6-55bf01d4fa70</td>
+                <td>="3334790452672604"</td>
+                <td>Che.ff.23@hotmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="729750"</td>
+                <td>16/11/2021</td>
+                <td>23:03:54</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Γιαννης Λουτσης</td>
+                <td>416581XXXXXX8355</td>
+                <td>Visa</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>17/11/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>ea79a163-e37c-4893-abfe-de1ab2871236</td>
+                <td>="4215636655172605"</td>
+                <td>janikurti333@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu REGISTRATION"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="000896"</td>
+                <td>16/11/2021</td>
+                <td>19:31:55</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>JOANI KURTI</td>
+                <td>465941XXXXXX6112</td>
+                <td>Visa</td>
+                <td>100,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>17/11/2021</td>
+                <td>95,95</td>
+                <td>1,60</td>
+                <td>0,15</td>
+                <td>2,30</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>731e6b48-c02b-40b8-a8d0-6a90c1dd0166</td>
+                <td>="6904646275472607"</td>
+                <td>gpm@otenet.gr</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="131945"</td>
+                <td>13/11/2021</td>
+                <td>19:16:44</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>PETER MAKRIS</td>
+                <td>535698XXXXXX0118</td>
+                <td>Mastercard</td>
+                <td>124,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>14/11/2021</td>
+                <td>118,79</td>
+                <td>2,23</td>
+                <td>0,19</td>
+                <td>2,79</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7e672b42-5464-4c23-90bd-c01cafe70e12</td>
+                <td>="2909393689172607"</td>
+                <td>harry@nutrichef.gr</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="389210"</td>
+                <td>12/11/2021</td>
+                <td>21:56:49</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Harry Charisma</td>
+                <td>498877XXXXXX8787</td>
+                <td>Visa</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>13/11/2021</td>
+                <td>59,34</td>
+                <td>1,05</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>58554de3-a205-45d3-a956-94fdb2ea57dc</td>
+                <td>="9397413306472601"</td>
+                <td>thraelle@hotmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="DUSHMM"</td>
+                <td>12/11/2021</td>
+                <td>16:24:57</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Ελευθερία Θραβάλου</td>
+                <td>416598XXXXXX1403</td>
+                <td>Visa</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>13/11/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6bf1cbf4-49c8-4f80-89a6-1e38776fcfd9</td>
+                <td>="8474985589172602"</td>
+                <td>Katerina_zan@yahoo.gr</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="534423"</td>
+                <td>4/11/2021</td>
+                <td>09:27:55</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Kat Souli</td>
+                <td>442317XXXXXX0381</td>
+                <td>Visa</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>5/11/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>eb029fb4-7355-4274-8ca7-cac32ea93862</td>
+                <td>="3505827008872609"</td>
+                <td>panousakis@hotmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="770299"</td>
+                <td>26/10/2021</td>
+                <td>11:40:06</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Βασιλης Πανουσακης</td>
+                <td>516732XXXXXX3520</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>27/10/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>b6ae080f-37cd-4805-a375-de2bd18caf15</td>
+                <td>="8691109045372601"</td>
+                <td>stravolemis_con@yahoo.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="034191"</td>
+                <td>16/10/2021</td>
+                <td>16:08:11</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Κωνσταντίνος Στραβολαίμης</td>
+                <td>518992XXXXXX8003</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>17/10/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>106ed8d4-5eb1-46da-91f2-79a760bab923</td>
+                <td>="3327939317672603"</td>
+                <td>hariskounoupis@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="138433"</td>
+                <td>13/10/2021</td>
+                <td>17:33:48</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>ΧΑΡΗΣ ΚΟΥΝΟΥΠΗΣ</td>
+                <td>531146XXXXXX2004</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>14/10/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>0d2bd8c0-20d2-4212-ad7a-a2cf4c36e818</td>
+                <td>="7098193270072609"</td>
+                <td>oikotopia@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="934131"</td>
+                <td>12/10/2021</td>
+                <td>19:59:58</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Rediviva Cucina Povera</td>
+                <td>535142XXXXXX3776</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>13/10/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>dff7b311-8f5f-4b7e-a796-95bf1e73d781</td>
+                <td>="7066707424672601"</td>
+                <td>cvitastalis@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="656790"</td>
+                <td>12/10/2021</td>
+                <td>13:52:46</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Χρήστος Vitastalis</td>
+                <td>535143XXXXXX5761</td>
+                <td>Mastercard</td>
+                <td>124,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>13/10/2021</td>
+                <td>118,79</td>
+                <td>2,23</td>
+                <td>0,19</td>
+                <td>2,79</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3f642028-2928-4c7f-ac7e-26527f57c0c6</td>
+                <td>="3355489775672600"</td>
+                <td>skoyrogiannakisgiannis@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="780320"</td>
+                <td>11/10/2021</td>
+                <td>00:24:15</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>ΓΙΑΝΝΗΣ ΣΚΟΥΡΟΓΙΑΝΝΑΚΗΣ SKOUROGIANNAKIS</td>
+                <td>535142XXXXXX7262</td>
+                <td>Mastercard</td>
+                <td>124,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>12/10/2021</td>
+                <td>120,77</td>
+                <td>0,25</td>
+                <td>0,19</td>
+                <td>2,79</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>ff8f4a9e-2a15-4005-a8fc-5a315ddfc53b</td>
+                <td>="3927383523072606"</td>
+                <td>stagipol@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="071628"</td>
+                <td>9/10/2021</td>
+                <td>16:50:27</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>ΠΟΛΥΣ ΣΤΑΓΚΙΔΗΣ</td>
+                <td>532192XXXXXX5010</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>10/10/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>90ad5c2b-e13a-42d4-b3ff-02b50d51b088</td>
+                <td>="9605765672872605"</td>
+                <td>dbalopoulos.cg@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu REGISTRATION"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="162206"</td>
+                <td>8/10/2021</td>
+                <td>22:10:05</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>dimosthenis balopoulos</td>
+                <td>535671XXXXXX1305</td>
+                <td>Mastercard</td>
+                <td>124,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>9/10/2021</td>
+                <td>120,77</td>
+                <td>0,25</td>
+                <td>0,19</td>
+                <td>2,79</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4e06a562-c9db-40c1-bcd9-68adbb894965</td>
+                <td>="5249265393172606"</td>
+                <td>opinakas@otenet.gr</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="525569"</td>
+                <td>30/9/2021</td>
+                <td>16:52:29</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>ΗΛΙΑΣ ΑΚΡΙΤΙΔΗΣ</td>
+                <td>498877XXXXXX7432</td>
+                <td>Visa</td>
+                <td>124,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>1/10/2021</td>
+                <td>118,91</td>
+                <td>2,11</td>
+                <td>0,19</td>
+                <td>2,79</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>78bf3ee9-39c3-41da-9a98-3b3c9ad712a1</td>
+                <td>="2928800382272600"</td>
+                <td>sakisferferis@hotmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="347816"</td>
+                <td>21/9/2021</td>
+                <td>10:42:08</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Αθανάσιος Φερφυρης</td>
+                <td>516732XXXXXX8451</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>22/9/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>404bf5ea-108e-4104-993a-a5fa86ad02df</td>
+                <td>="8698934198772601"</td>
+                <td>dmakris.volos@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="645496"</td>
+                <td>14/9/2021</td>
+                <td>11:51:39</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>DIMITRIS MAKRIS</td>
+                <td>516732XXXXXX8251</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>15/9/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>bb07ff30-b031-4cc6-9939-786e29e2e2c7</td>
+                <td>="3139176349772609"</td>
+                <td>kmanoleas@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu REGISTRATION"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="856736"</td>
+                <td>13/9/2021</td>
+                <td>10:02:19</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>ΚΥΡΙΑΚΟΣ ΜΑΝΩΛΕΑΣ</td>
+                <td>537534XXXXXX7788</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>14/9/2021</td>
+                <td>59,27</td>
+                <td>1,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>df1a5ffc-6e2b-4336-b613-cae182c11f17</td>
+                <td>="2339958992772600"</td>
+                <td>tsevasf888@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="011320"</td>
+                <td>10/9/2021</td>
+                <td>13:12:20</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>ΦΩΤΙΟΣ ΤΣΕΒΑ&#39;Σ</td>
+                <td>535671XXXXXX9517</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>11/9/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3b9e260a-7ac7-4873-b675-3e2bedc9017d</td>
+                <td>="7919646036572604"</td>
+                <td>amamnikos@hotmail.gr</td>
+                <td>=""</td>
+                <td>="CostoMenu REGISTRATION"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="007989"</td>
+                <td>10/9/2021</td>
+                <td>03:55:19</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>ΣΠΥΡΙΔΑΚΗΣ ΝΙΚΟΣ ΝΙΚΟΣ</td>
+                <td>537534XXXXXX4046</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>11/9/2021</td>
+                <td>59,27</td>
+                <td>1,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>c1089c3d-d6b8-4750-9e70-7bbec1cd7f07</td>
+                <td>="8271990991272606"</td>
+                <td>cbistro21@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu REGISTRATION"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="090033"</td>
+                <td>10/9/2021</td>
+                <td>00:04:32</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Κωνσταντίνος Τσαβδαρίδης</td>
+                <td>535671XXXXXX0855</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>11/9/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>35675d7d-4750-4c48-83db-0ea7bcea4a45</td>
+                <td>="6403753110072609"</td>
+                <td>nmanavidis@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu REGISTRATION"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="345340"</td>
+                <td>7/9/2021</td>
+                <td>21:08:23</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Νίκος Μαναβίδης</td>
+                <td>430589XXXXXX8000</td>
+                <td>Visa</td>
+                <td>124,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>8/9/2021</td>
+                <td>120,77</td>
+                <td>0,25</td>
+                <td>0,19</td>
+                <td>2,79</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>37507cfb-408f-4411-bcea-5e89a76a9f4f</td>
+                <td>="3351385288872608"</td>
+                <td>hello@yogreen.gr</td>
+                <td>=""</td>
+                <td>="CostoMenu REGISTRATION"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="051111"</td>
+                <td>24/8/2021</td>
+                <td>11:29:11</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Δημήτριος Καρβελούτσος</td>
+                <td>401779XXXXXX4876</td>
+                <td>Visa</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>25/8/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>951da2e6-f35b-4b71-9c52-ef0c41d83dca</td>
+                <td>="8934275506672601"</td>
+                <td>lysandropoulos@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="082035"</td>
+                <td>20/8/2021</td>
+                <td>20:10:34</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>IOANNIS LYSANDROPOULOS</td>
+                <td>535671XXXXXX9390</td>
+                <td>Mastercard</td>
+                <td>124,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>21/8/2021</td>
+                <td>120,77</td>
+                <td>0,25</td>
+                <td>0,19</td>
+                <td>2,79</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>944c7ce7-f2c8-46b2-a86c-0a7bf45fe372</td>
+                <td>="5104362845872601"</td>
+                <td>stagidis@hotmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="071505"</td>
+                <td>26/7/2021</td>
+                <td>15:15:04</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>CRATS GR</td>
+                <td>532192XXXXXX5010</td>
+                <td>Mastercard</td>
+                <td>124,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>27/7/2021</td>
+                <td>120,77</td>
+                <td>0,25</td>
+                <td>0,19</td>
+                <td>2,79</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>24e3e2b6-5ed5-4cef-a7a7-bada77379909</td>
+                <td>="8806913099372604"</td>
+                <td>joanna18b@hotmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu REGISTRATION"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="596360"</td>
+                <td>19/7/2021</td>
+                <td>11:38:27</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Ioanna Andrianou</td>
+                <td>535142XXXXXX0317</td>
+                <td>Mastercard</td>
+                <td>124,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>20/7/2021</td>
+                <td>120,77</td>
+                <td>0,25</td>
+                <td>0,19</td>
+                <td>2,79</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>0906dae7-daed-4327-b4c1-0e14caf7210a</td>
+                <td>="8473248072172606"</td>
+                <td>Vagelis.m@mykonosgrand.gr</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="161933"</td>
+                <td>14/7/2021</td>
+                <td>19:19:33</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>EVANGELOS MANOLIS</td>
+                <td>496099XXXXXX0191</td>
+                <td>Visa</td>
+                <td>124,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>15/7/2021</td>
+                <td>120,77</td>
+                <td>0,25</td>
+                <td>0,19</td>
+                <td>2,79</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2cd63029-fea9-41a4-a990-5931cfae62f7</td>
+                <td>="9392956736972606"</td>
+                <td>33telaro@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="971116"</td>
+                <td>9/7/2021</td>
+                <td>10:54:53</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>meletis belesis</td>
+                <td>430252XXXXXX2013</td>
+                <td>Visa</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>10/7/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>a5acd138-6c95-4855-866c-32dd6537ddae</td>
+                <td>="2303214634172600"</td>
+                <td>loukasfelesakis@yahoo.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="169949"</td>
+                <td>6/7/2021</td>
+                <td>15:13:23</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Λουκάς Φελεσάκης</td>
+                <td>527346XXXXXX6165</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>7/7/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>00f6205e-b03f-4863-a4ef-094a90e8cf96</td>
+                <td>="6022401899572601"</td>
+                <td>george.c.pavlidis@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="012780"</td>
+                <td>21/6/2021</td>
+                <td>22:28:42</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Ιγνάτιος Χαλαυτής</td>
+                <td>535195XXXXXX0623</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>22/6/2021</td>
+                <td>59,27</td>
+                <td>1,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>80ffbba9-d3f8-4af2-a542-8cfed9ddf61c</td>
+                <td>="9263975094872607"</td>
+                <td>ztsitsoglou@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="711672"</td>
+                <td>19/6/2021</td>
+                <td>11:42:44</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>zefi tsitsoglou</td>
+                <td>430589XXXXXX8005</td>
+                <td>Visa</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>20/6/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4c2638b7-1c19-43b6-a071-c503ae0ae501</td>
+                <td>="3718310516472608"</td>
+                <td>viktor.katsabeas19@hotmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="713772"</td>
+                <td>18/6/2021</td>
+                <td>16:03:38</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Βίκτωρ  Κατσαμπέας</td>
+                <td>535142XXXXXX9072</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>19/6/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>87063d13-eede-4af1-ba4e-7cb1b0da2935</td>
+                <td>="6919692445072609"</td>
+                <td>info@costo.menu</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>=""</td>
+                <td>18/6/2021</td>
+                <td>15:32:44</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Test antonis Test parousis</td>
+                <td>537534XXXXXX4127</td>
+                <td>Mastercard</td>
+                <td>-62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Web POS</td>
+                <td>Επιτυχημένη</td>
+                <td>Ακύρωση Χρέωσης</td>
+                <td></td>
+                <td></td>
+                <td>-59,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8fd8007a-d852-46f7-8f02-95454b3ade54</td>
+                <td>="6919692445072609"</td>
+                <td>info@costo.menu</td>
+                <td>=""</td>
+                <td>="CostoMenu REGISTRATION"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="147519"</td>
+                <td>18/6/2021</td>
+                <td>14:28:39</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Test antonis Test parousis</td>
+                <td>537534XXXXXX4127</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Ακυρωμένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td></td>
+                <td>59,27</td>
+                <td>1,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>c16bbde7-74a2-445d-930c-f1aff841f128</td>
+                <td>="1769900865872600"</td>
+                <td>georginam75@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>=""</td>
+                <td>15/6/2021</td>
+                <td>12:05:56</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Georgia Mar</td>
+                <td>414278XXXXXX6034</td>
+                <td>Visa</td>
+                <td>-62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Web POS</td>
+                <td>Επιτυχημένη</td>
+                <td>Ακύρωση Χρέωσης</td>
+                <td></td>
+                <td></td>
+                <td>-60,20</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>e7c5bd9d-2d8f-4dc0-bb70-9b2fdbff87b9</td>
+                <td>="1769900865872600"</td>
+                <td>georginam75@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu REGISTRATION"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="059751"</td>
+                <td>15/6/2021</td>
+                <td>12:01:10</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Georgia Mar</td>
+                <td>414278XXXXXX6034</td>
+                <td>Visa</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Ακυρωμένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td></td>
+                <td>60,20</td>
+                <td>0,19</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>b521633a-bde1-4edc-ad39-d4218bf1d952</td>
+                <td>="7785208867572601"</td>
+                <td>kikipiast@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>=""</td>
+                <td>13/6/2021</td>
+                <td>17:07:55</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>test test</td>
+                <td>430589XXXXXX4008</td>
+                <td>Visa</td>
+                <td>-62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Web POS</td>
+                <td>Επιτυχημένη</td>
+                <td>Ακύρωση Χρέωσης</td>
+                <td></td>
+                <td></td>
+                <td>-60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8e6d6035-3bce-4673-a24c-bc4f293b54cb</td>
+                <td>="6922398766072601"</td>
+                <td>kikipiast@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>=""</td>
+                <td>13/6/2021</td>
+                <td>17:07:33</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>test test</td>
+                <td>430589XXXXXX4008</td>
+                <td>Visa</td>
+                <td>-62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Web POS</td>
+                <td>Επιτυχημένη</td>
+                <td>Ακύρωση Χρέωσης</td>
+                <td></td>
+                <td></td>
+                <td>-60,27</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>16414af8-00d6-4f2e-aa75-6f14c70b88ba</td>
+                <td>="6922398766072601"</td>
+                <td>kikipiast@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="368068"</td>
+                <td>13/6/2021</td>
+                <td>17:05:23</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>test test</td>
+                <td>430589XXXXXX4008</td>
+                <td>Visa</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Ακυρωμένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td></td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>42be1073-84d8-40b4-9da5-ea641f645c50</td>
+                <td>="7785208867572601"</td>
+                <td>kikipiast@gmail.com</td>
+                <td>=""</td>
+                <td>="CostoMenu RENEWAL"</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="167349"</td>
+                <td>13/6/2021</td>
+                <td>10:21:25</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>test test</td>
+                <td>430589XXXXXX4008</td>
+                <td>Visa</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Ακυρωμένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td></td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>be8bd619-cc74-4242-8e47-fdb9d4005c3c</td>
+                <td>="8295197605772604"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>=""</td>
+                <td>12/6/2021</td>
+                <td>21:08:22</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td></td>
+                <td>430589XXXXXX4008</td>
+                <td>Visa</td>
+                <td>-124,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Web POS</td>
+                <td>Επιτυχημένη</td>
+                <td>Ακύρωση Χρέωσης</td>
+                <td></td>
+                <td></td>
+                <td>-120,77</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6a532d5f-2378-420a-b629-b6d58bf95373</td>
+                <td>="8295197605772604"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="115423"</td>
+                <td>12/6/2021</td>
+                <td>20:43:15</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td></td>
+                <td>430589XXXXXX4008</td>
+                <td>Visa</td>
+                <td>124,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Ακυρωμένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td></td>
+                <td>120,77</td>
+                <td>0,25</td>
+                <td>0,19</td>
+                <td>2,79</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>25c33b2c-3883-4d43-8dd7-92675b884c69</td>
+                <td>="8742422617672603"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>=""</td>
+                <td>12/6/2021</td>
+                <td>20:41:42</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td></td>
+                <td>518992XXXXXX8003</td>
+                <td>Mastercard</td>
+                <td>-0,62</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Web POS</td>
+                <td>Επιτυχημένη</td>
+                <td>Ακύρωση Χρέωσης</td>
+                <td></td>
+                <td></td>
+                <td>-0,36</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8b535102-8e4e-48e6-b69c-b2c270ff5b3b</td>
+                <td>="8853877590472601"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>=""</td>
+                <td>12/6/2021</td>
+                <td>20:41:31</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td></td>
+                <td>518992XXXXXX8003</td>
+                <td>Mastercard</td>
+                <td>-0,62</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Web POS</td>
+                <td>Επιτυχημένη</td>
+                <td>Ακύρωση Χρέωσης</td>
+                <td></td>
+                <td></td>
+                <td>-0,36</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>d503b325-b649-4ef6-8955-da9e1eb41e06</td>
+                <td>="8742422617672603"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="039339"</td>
+                <td>12/6/2021</td>
+                <td>19:27:22</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td></td>
+                <td>518992XXXXXX8003</td>
+                <td>Mastercard</td>
+                <td>0,62</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Ακυρωμένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td></td>
+                <td>0,36</td>
+                <td>0,00</td>
+                <td>0,01</td>
+                <td>0,25</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>bde1a555-cab5-46d7-a15f-8c0b1030d6c0</td>
+                <td>="8853877590472601"</td>
+                <td></td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    
+
+                "</td>
+                <td>="056311"</td>
+                <td>12/6/2021</td>
+                <td>19:25:54</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td></td>
+                <td>518992XXXXXX8003</td>
+                <td>Mastercard</td>
+                <td>0,62</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Ακυρωμένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td></td>
+                <td>0,36</td>
+                <td>0,00</td>
+                <td>0,01</td>
+                <td>0,25</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4fdc32c5-25f8-4060-99b9-b3daa4cc2f3c</td>
+                <td>="8399268730872600"</td>
+                <td>kosstefanakis@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="342493"</td>
+                <td>3/6/2021</td>
+                <td>19:14:59</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>ΣΤΕΦΑΝΑΚΗΣ ΚΩΝΣΤΑΝΤΙΝΟΣ ΣΤΕΦΑΝΑΚΗΣ</td>
+                <td>498877XXXXXX5283</td>
+                <td>Visa</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>4/6/2021</td>
+                <td>59,34</td>
+                <td>1,05</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>ed36e409-a5ff-4f99-a276-3a345a0a425a</td>
+                <td>="2336020335472606"</td>
+                <td>akrovolivoula@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="061537"</td>
+                <td>2/6/2021</td>
+                <td>15:05:36</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Ραμπάτ Αλεξάνδρα</td>
+                <td>535698XXXXXX0115</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>3/6/2021</td>
+                <td>59,27</td>
+                <td>1,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3bf3ded6-d294-4008-9336-67b04f27f082</td>
+                <td>="3211159860272607"</td>
+                <td>xaris993@hotmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="051412"</td>
+                <td>1/6/2021</td>
+                <td>14:45:11</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>AZARIADIS GEWRGIOS</td>
+                <td>535671XXXXXX0220</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>2/6/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>13a2f9c5-80cf-46db-8e97-ba93db00c0c8</td>
+                <td>="1078515428972600"</td>
+                <td>lefterismast@hotmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="071719"</td>
+                <td>31/5/2021</td>
+                <td>17:01:19</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Μαστοράκης Ελευθέριος</td>
+                <td>532192XXXXXX2007</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>1/6/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>ac67da68-33fb-4319-b590-4e30a1080de6</td>
+                <td>="1318135291972609"</td>
+                <td>platakis1@hotmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="337135"</td>
+                <td>29/5/2021</td>
+                <td>18:10:18</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>PLATAKIS ALEXANDROS</td>
+                <td>557871XXXXXX2589</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>30/5/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4e13a3ca-5c72-454f-ac53-86db487dcdc5</td>
+                <td>="5520758745972602"</td>
+                <td>redridinghood.gr@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="101601"</td>
+                <td>29/5/2021</td>
+                <td>16:52:00</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td> BSB</td>
+                <td>411043XXXXXX0108</td>
+                <td>Visa</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>30/5/2021</td>
+                <td>59,34</td>
+                <td>1,05</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>af3e7de3-a605-43d2-875e-1f61947992c7</td>
+                <td>="6144151258472601"</td>
+                <td>info@aianteionbay.gr</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="425032"</td>
+                <td>27/5/2021</td>
+                <td>12:59:04</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>ΓΚΟΤΖΗ ΣΟΦΙΑ ΓΚΟΤΖΗ</td>
+                <td>537534XXXXXX0336</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>28/5/2021</td>
+                <td>59,27</td>
+                <td>1,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8dcf5f49-ceb9-4bfb-9f41-b872efc963ca</td>
+                <td>="9499796826972601"</td>
+                <td>alkis.vatellis@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="115333"</td>
+                <td>26/5/2021</td>
+                <td>10:03:20</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Βατελλης Βασιλης</td>
+                <td>527890XXXXXX5546</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>27/5/2021</td>
+                <td>60,20</td>
+                <td>0,19</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>fe385103-0664-4a84-8da3-cdca499473cc</td>
+                <td>="6774812830772605"</td>
+                <td>gerasimosag123@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="198208"</td>
+                <td>24/5/2021</td>
+                <td>15:57:57</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>agolli gerasimos</td>
+                <td>430589XXXXXX1002</td>
+                <td>Visa</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>25/5/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>a38e5297-1ef6-418a-89d4-afe7cfa8b339</td>
+                <td>="3662743223672603"</td>
+                <td>Rhodesfactory@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="090343"</td>
+                <td>23/5/2021</td>
+                <td>03:17:43</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Μουρτζης Νικος</td>
+                <td>535698XXXXXX0100</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>24/5/2021</td>
+                <td>59,27</td>
+                <td>1,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>c6f2ec70-c937-4d22-9fbf-35096ff39ca3</td>
+                <td>="1996652631472600"</td>
+                <td>anastasakospanagiotis13@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="071857"</td>
+                <td>20/5/2021</td>
+                <td>18:24:57</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>αναστασακος παναγιωτης</td>
+                <td>535671XXXXXX4444</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>21/5/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>b58b009b-ee11-42c5-9e02-e8e014c51aa7</td>
+                <td>="4796768451572604"</td>
+                <td>panteliserakleous@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="559819"</td>
+                <td>18/5/2021</td>
+                <td>14:08:17</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>PANTELIS IRAKLEOUS PANTELIS</td>
+                <td>542434XXXXXX1372</td>
+                <td>Mastercard</td>
+                <td>59,50</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>19/5/2021</td>
+                <td>56,96</td>
+                <td>0,98</td>
+                <td>0,09</td>
+                <td>1,47</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3e0a5319-5807-44dd-ab8a-ef129d06a214</td>
+                <td>="8201666508172602"</td>
+                <td>nikosmaurommatakis@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="165706"</td>
+                <td>17/5/2021</td>
+                <td>18:33:22</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>MAUROMMATAKIS NIKOS</td>
+                <td>516732XXXXXX3033</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>18/5/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>ce868e51-eae3-42dd-90b7-b4aeb07a9d93</td>
+                <td>="4701758853772601"</td>
+                <td>info@marioexclusivecatering.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="051002"</td>
+                <td>10/5/2021</td>
+                <td>10:25:02</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>paros mario exclusive catering</td>
+                <td>535698XXXXXX0102</td>
+                <td>Mastercard</td>
+                <td>124,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>11/5/2021</td>
+                <td>118,79</td>
+                <td>2,23</td>
+                <td>0,19</td>
+                <td>2,79</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>f668b075-5225-4086-af65-a788df2378be</td>
+                <td>="9988923786472604"</td>
+                <td>xarisnakos.xn@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="973543"</td>
+                <td>8/5/2021</td>
+                <td>19:49:49</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Nakos Xaris Nakos</td>
+                <td>535142XXXXXX4288</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>9/5/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>425e1942-a46e-49f7-aa15-a42e7250f426</td>
+                <td>="5098477071072609"</td>
+                <td>christos.gkatzanis@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="670434"</td>
+                <td>8/5/2021</td>
+                <td>17:39:58</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Γκατζάνης Χρήστος</td>
+                <td>494025XXXXXX5090</td>
+                <td>Visa</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>9/5/2021</td>
+                <td>60,20</td>
+                <td>0,19</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>598ab70a-b870-4a84-80ba-7f9447c9fcc5</td>
+                <td>="9471716235872604"</td>
+                <td>Giannis.panou@outlook.com.gr</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="730821"</td>
+                <td>6/5/2021</td>
+                <td>13:36:12</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Πανου Γιαννης</td>
+                <td>535142XXXXXX0535</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>7/5/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>dc476aac-848e-4994-ad3f-c6fcbc09bbc7</td>
+                <td>="2187225980472607"</td>
+                <td>ombra.athens@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="141939"</td>
+                <td>5/5/2021</td>
+                <td>22:53:07</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>TZANOULINOU PHGH</td>
+                <td>535195XXXXXX2033</td>
+                <td>Mastercard</td>
+                <td>124,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>6/5/2021</td>
+                <td>118,79</td>
+                <td>2,23</td>
+                <td>0,19</td>
+                <td>2,79</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5180cf4e-4c4a-44e0-97e0-91bfbdb9cbde</td>
+                <td>="4727101950772605"</td>
+                <td>jasonsot@hotmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="173386"</td>
+                <td>5/5/2021</td>
+                <td>19:00:27</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Sotiriadis Jason</td>
+                <td>430589XXXXXX6003</td>
+                <td>Visa</td>
+                <td>124,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>6/5/2021</td>
+                <td>120,77</td>
+                <td>0,25</td>
+                <td>0,19</td>
+                <td>2,79</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5c06975b-2693-40ec-ba1e-fbbd891063ef</td>
+                <td>="6362312679172603"</td>
+                <td>alexandros.manos@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="218934"</td>
+                <td>29/4/2021</td>
+                <td>12:57:42</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>manos alexandros</td>
+                <td>547261XXXXXX0575</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>30/4/2021</td>
+                <td>59,27</td>
+                <td>1,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>ecb5f3c5-0314-479c-bf86-646028bc4766</td>
+                <td>="4728887946972601"</td>
+                <td>iliadisxr79@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="189628"</td>
+                <td>27/4/2021</td>
+                <td>21:28:49</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Iliadis Christos</td>
+                <td>416581XXXXXX6385</td>
+                <td>Visa</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>28/4/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9caff65a-1079-4405-b75c-2d44af93b248</td>
+                <td>="4487774519272609"</td>
+                <td>mar8ouskar@hotmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="258177"</td>
+                <td>26/4/2021</td>
+                <td>19:01:28</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>ΜΕΣΣΑΛΑΚΗ ΜΑΡΘΑ</td>
+                <td>535142XXXXXX6463</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>27/4/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>04f912ff-1c3a-403d-8736-2443c01e2be9</td>
+                <td>="8563863981372600"</td>
+                <td>ergon.erithrea@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="171424"</td>
+                <td>26/4/2021</td>
+                <td>14:04:24</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>ΔΙΟΝΥΣΗΣ ΣΠΗΛΙΟΠΟΥΛΟΣ</td>
+                <td>411043XXXXXX0201</td>
+                <td>Visa</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>27/4/2021</td>
+                <td>59,34</td>
+                <td>1,05</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>e756f80d-3e8e-446e-a542-9fc87975672d</td>
+                <td>="4593626760672605"</td>
+                <td>zottas_teo@hotmail.gr</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="041134"</td>
+                <td>23/4/2021</td>
+                <td>11:16:34</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Ζώττας Θεοδωρος</td>
+                <td>535671XXXXXX6893</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>24/4/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1a0e2dc4-eef2-48c2-8c0b-d6a2028a1a5e</td>
+                <td>="3993902367772601"</td>
+                <td>sakkosmarios@hotmail.gr</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="308477"</td>
+                <td>22/4/2021</td>
+                <td>19:16:34</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>ΣΑΚΚΟΣ ΜΑΡΙΟΣ</td>
+                <td>535142XXXXXX6177</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>23/4/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7cf975d7-49af-4383-a7a7-c022324c0d10</td>
+                <td>="5477460267872604"</td>
+                <td>navalmarinerhodes@yahoo.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="377583"</td>
+                <td>21/4/2021</td>
+                <td>13:59:37</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>MARINE NAVAL</td>
+                <td>537534XXXXXX4702</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>22/4/2021</td>
+                <td>59,27</td>
+                <td>1,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>b6721874-9604-4464-9b15-574303762427</td>
+                <td>="2521909928972602"</td>
+                <td>fb.mkousounis@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="105252"</td>
+                <td>18/4/2021</td>
+                <td>13:43:42</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>ΚΟΥΣΟΥΝΗΣ ΜΑΡΙΝΟΣ</td>
+                <td>528055XXXXXX9000</td>
+                <td>Mastercard</td>
+                <td>124,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>19/4/2021</td>
+                <td>120,65</td>
+                <td>0,37</td>
+                <td>0,19</td>
+                <td>2,79</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1893aa1f-16cd-419f-a7d8-97872db89d75</td>
+                <td>="2421885250272608"</td>
+                <td>skoyrogiannakisgiannis@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="780089"</td>
+                <td>15/4/2021</td>
+                <td>18:58:42</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>SKOUROGIANNAKIS YIANNIS SKOUROGIANNAKIS</td>
+                <td>535142XXXXXX7262</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>16/4/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3050e92b-4580-41dc-8e1f-6cf413d83f7c</td>
+                <td>="9042746604772606"</td>
+                <td>manwlis_komis@yahoo.gr</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="514041"</td>
+                <td>13/4/2021</td>
+                <td>19:39:03</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>MaKo Manolis Komis</td>
+                <td>516732XXXXXX6533</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>14/4/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>968cae91-fe63-47d7-aca9-e9463cbac410</td>
+                <td>="6456962402572600"</td>
+                <td>loumaigian@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="99J33T"</td>
+                <td>12/4/2021</td>
+                <td>17:47:37</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>LUMAJ JAN</td>
+                <td>439743XXXXXX0428</td>
+                <td>Visa</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>13/4/2021</td>
+                <td>59,56</td>
+                <td>0,71</td>
+                <td>0,21</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7486d2c6-e58e-4821-9aab-b3c4375b1b11</td>
+                <td>="3702173793472601"</td>
+                <td>info@arthoteldebono.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="381266"</td>
+                <td>10/4/2021</td>
+                <td>14:30:05</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>ΔΕΜΠΟΝΟΣ ΘΕΟΦΑΝΗΣ</td>
+                <td>498877XXXXXX9717</td>
+                <td>Visa</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>11/4/2021</td>
+                <td>59,34</td>
+                <td>1,05</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>46147ab5-4496-460f-8617-19e2c22de88d</td>
+                <td>="7494877784572608"</td>
+                <td>Chronisvagelis@hotmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="580375"</td>
+                <td>30/3/2021</td>
+                <td>12:01:35</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Χρονης Βαγγελης Χρονης</td>
+                <td>430589XXXXXX6004</td>
+                <td>Visa</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>31/3/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8776f449-2bb9-4dbd-99f6-e047cb68b64c</td>
+                <td>="2377607255672607"</td>
+                <td>christodoulouchr1982@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="770169"</td>
+                <td>21/3/2021</td>
+                <td>12:01:17</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Christodoulou Christodoulos</td>
+                <td>516732XXXXXX5232</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>22/3/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>dd869e7c-2693-4e6b-b373-f3db09dff61e</td>
+                <td>="9247275442772603"</td>
+                <td>georgekosmoglou@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="092327"</td>
+                <td>18/3/2021</td>
+                <td>23:47:27</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Kosmoglou Georgios</td>
+                <td>401779XXXXXX9947</td>
+                <td>Visa</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>19/3/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>b62e13a9-2198-4559-8ade-c144296a2bfc</td>
+                <td>="9576368002572601"</td>
+                <td>pollnikos@hotmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="337829"</td>
+                <td>16/3/2021</td>
+                <td>15:31:16</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Polychronopoulos  Nikolaos </td>
+                <td>535143XXXXXX1504</td>
+                <td>Mastercard</td>
+                <td>124,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>17/3/2021</td>
+                <td>118,79</td>
+                <td>2,23</td>
+                <td>0,19</td>
+                <td>2,79</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>e60bec4f-9fcb-42e1-962a-ed2e40c6e5d7</td>
+                <td>="9369525898172603"</td>
+                <td>panao22@hotmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="534301"</td>
+                <td>16/3/2021</td>
+                <td>13:37:49</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>PAPADOPOULOS PANOS</td>
+                <td>535142XXXXXX0048</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>17/3/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3d4491d4-6f51-4f8b-ade4-7cde0b9d9e4d</td>
+                <td>="6676852640972603"</td>
+                <td>cvkchefconsulting@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="895563"</td>
+                <td>10/3/2021</td>
+                <td>18:49:37</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>VOULGARI KONTESOPOULOU CONSTANTINA</td>
+                <td>516732XXXXXX4704</td>
+                <td>Mastercard</td>
+                <td>124,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>11/3/2021</td>
+                <td>120,77</td>
+                <td>0,25</td>
+                <td>0,19</td>
+                <td>2,79</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>dddab8ec-4802-4de7-9fe8-db95903c1ce5</td>
+                <td>="1480750533472604"</td>
+                <td>pantiskos-87@hotmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="250581"</td>
+                <td>7/3/2021</td>
+                <td>09:16:21</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>PANTISKOS KONSTANTINOS PANTISKOS</td>
+                <td>498877XXXXXX0328</td>
+                <td>Visa</td>
+                <td>124,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>8/3/2021</td>
+                <td>118,91</td>
+                <td>2,11</td>
+                <td>0,19</td>
+                <td>2,79</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>c69fb824-b9da-42be-89e7-0366ed1cd38b</td>
+                <td>="9555068142972601"</td>
+                <td>theokovios@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="150744"</td>
+                <td>6/3/2021</td>
+                <td>11:02:35</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Κωβιος Θεοδοσης Κωβιος</td>
+                <td>535142XXXXXX5954</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>7/3/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7e95abc1-9ebc-4410-abae-d5f18242e3f5</td>
+                <td>="3093019743972605"</td>
+                <td>richard217lima@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="574400"</td>
+                <td>5/3/2021</td>
+                <td>21:29:53</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>pinto de lima richard </td>
+                <td>535142XXXXXX6099</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>6/3/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>0452e2af-53e8-40af-b2f0-ed349a1d41d7</td>
+                <td>="7716353957172604"</td>
+                <td>info@harvest.com.gr</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="141817"</td>
+                <td>2/3/2021</td>
+                <td>18:05:16</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td> HARVEST COFFEE &amp; WINE</td>
+                <td>535698XXXXXX0104</td>
+                <td>Mastercard</td>
+                <td>124,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>3/3/2021</td>
+                <td>118,79</td>
+                <td>2,23</td>
+                <td>0,19</td>
+                <td>2,79</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>002ecaba-4471-42c7-ad30-bcacf64c101d</td>
+                <td>="7071753159972608"</td>
+                <td>mrthanossan@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="072052"</td>
+                <td>1/3/2021</td>
+                <td>20:02:52</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Μπρισίμης Αθανάσιος</td>
+                <td>532192XXXXXX0000</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>2/3/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>0ddc1429-55e0-4d05-9b72-5cda41b3afb8</td>
+                <td>="6671041574672606"</td>
+                <td>pantelis79@hotmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="048348"</td>
+                <td>26/2/2021</td>
+                <td>20:24:31</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Kosmidis Pantelis</td>
+                <td>450903XXXXXX7008</td>
+                <td>Visa</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>27/2/2021</td>
+                <td>60,20</td>
+                <td>0,19</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9ed5cb88-399d-461c-8b16-9d23b0946906</td>
+                <td>="7998493535672603"</td>
+                <td>v.tsourounakis@zanteplazahotels.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="358548"</td>
+                <td>26/2/2021</td>
+                <td>17:24:58</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Τσουρουνάκης Βασίλειος</td>
+                <td>446342XXXXXX6287</td>
+                <td>Visa</td>
+                <td>124,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>27/2/2021</td>
+                <td>119,22</td>
+                <td>1,80</td>
+                <td>0,19</td>
+                <td>2,79</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>05936aca-06b7-4c74-9d08-25f30601bf6a</td>
+                <td>="7995398932172608"</td>
+                <td>panoupetros@yahoo.gr</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="094275"</td>
+                <td>17/2/2021</td>
+                <td>13:28:15</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>ΠΑΝΟΥ ΠΕΤΡΟΣ</td>
+                <td>518992XXXXXX3004</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>18/2/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9fbe55cf-ecd2-4765-95a3-d3780b9ed12d</td>
+                <td>="9019882773272601"</td>
+                <td>xflashx@otenet.gr</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="359952"</td>
+                <td>15/2/2021</td>
+                <td>23:33:40</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>SGOUROS KOSTANTINOS</td>
+                <td>537534XXXXXX1001</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>16/2/2021</td>
+                <td>59,27</td>
+                <td>1,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7bd388ab-da0d-4d0c-991c-2ca2a33d6846</td>
+                <td>="9080188066472605"</td>
+                <td>gp220797@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="201877"</td>
+                <td>12/2/2021</td>
+                <td>15:41:20</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Papachristopoulos Giannis</td>
+                <td>535195XXXXXX6808</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>13/2/2021</td>
+                <td>59,27</td>
+                <td>1,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5d5ec798-203a-4722-9e30-f25c5f0fb239</td>
+                <td>="6482990464172602"</td>
+                <td>info@yellow.gr</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="200321"</td>
+                <td>11/2/2021</td>
+                <td>10:54:43</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>ΑΛΒΑΝΙΔΗΣ ΒΑΣΙΛΗΣ</td>
+                <td>535195XXXXXX0292</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>12/2/2021</td>
+                <td>59,27</td>
+                <td>1,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>a83c6034-de78-4082-9ba0-532f6c95012c</td>
+                <td>="3193543334372608"</td>
+                <td>cheftsitsanis@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="012033"</td>
+                <td>8/2/2021</td>
+                <td>20:31:33</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>ΤΣΙΤΣΑΝΗΣ ΚΩΝΣΤΑΝΤΙΝΟΣ</td>
+                <td>406001XXXXXX9005</td>
+                <td>Visa</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>9/2/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>f4ef5cb1-a9e8-441e-9ef8-8527269444cc</td>
+                <td>="1558011229272606"</td>
+                <td>info@ktimapaschalaki.gr</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="081818"</td>
+                <td>6/2/2021</td>
+                <td>18:54:18</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>ΠΑΣΧΑΛΑΚΗΣ ΝΙΚΟΣ</td>
+                <td>535698XXXXXX0104</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>7/2/2021</td>
+                <td>59,27</td>
+                <td>1,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5c578f26-a438-415d-bd51-d8f326cb9718</td>
+                <td>="6428822991172607"</td>
+                <td>georgiou_dimosthenis@hotmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="976050"</td>
+                <td>29/1/2021</td>
+                <td>10:33:49</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>GEORGIOU DIMOSTHENIS GEORGIOU</td>
+                <td>535195XXXXXX0505</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>30/1/2021</td>
+                <td>59,27</td>
+                <td>1,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5c009a5a-62f8-4cb0-9868-e406ac46f75c</td>
+                <td>="4949682414572601"</td>
+                <td>topigadi@hotmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="161330"</td>
+                <td>18/1/2021</td>
+                <td>13:12:30</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Παυλάκης Χάρης</td>
+                <td>535698XXXXXX0102</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>19/1/2021</td>
+                <td>59,27</td>
+                <td>1,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6e31a7c4-3ab8-4fde-a1ef-a1e3bd9eb6e5</td>
+                <td>="3112343754172607"</td>
+                <td>sirigosst@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="492530"</td>
+                <td>15/1/2021</td>
+                <td>18:50:12</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>ΣΥΡΙΓΟΣ ΣΤΑΥΡΟΣ ΣΥΡΙΓΟΣ</td>
+                <td>537534XXXXXX8460</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>16/1/2021</td>
+                <td>59,27</td>
+                <td>1,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>fc27e1c5-5c12-45f2-b9f4-63b376c48e05</td>
+                <td>="3179645064872609"</td>
+                <td>papadakinmaria@gmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="268897"</td>
+                <td>12/1/2021</td>
+                <td>23:02:59</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>ΠΑΠΑΔΑΚΗ ΜΑΡΙΑ ΠΑΠΑΔΑΚΗ</td>
+                <td>516732XXXXXX6864</td>
+                <td>Mastercard</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>13/1/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9ee5b1a5-8cef-482d-b80f-0c392e006cde</td>
+                <td>="5406014277672606"</td>
+                <td>nkurinos@hotmail.com</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="969579"</td>
+                <td>12/1/2021</td>
+                <td>15:45:06</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Κουρινος Νικος</td>
+                <td>535195XXXXXX8547</td>
+                <td>Mastercard</td>
+                <td>124,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>13/1/2021</td>
+                <td>118,79</td>
+                <td>2,23</td>
+                <td>0,19</td>
+                <td>2,79</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4f4cf29b-b13d-4822-a0b6-08677bec1c45</td>
+                <td>="6424075184872600"</td>
+                <td>yiannis.goutsios@outlook.com.gr</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu renewal
+
+                "</td>
+                <td>="071724"</td>
+                <td>8/1/2021</td>
+                <td>17:35:24</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Goutsios Yiannis Goutsios</td>
+                <td>406001XXXXXX7028</td>
+                <td>Visa</td>
+                <td>62,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>9/1/2021</td>
+                <td>60,27</td>
+                <td>0,12</td>
+                <td>0,09</td>
+                <td>1,52</td>
+                <td>0,00</td>
+                <td>="90000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>a8ec1843-af90-4013-9f08-c68caab8f1a6</td>
+                <td>="2711558743372607"</td>
+                <td>george.pitsinos@seasabellehotel.gr</td>
+                <td>=""</td>
+                <td>=""</td>
+                <td>="
+                    CostoMenu registration
+
+                "</td>
+                <td>="020788"</td>
+                <td>3/1/2021</td>
+                <td>13:45:11</td>
+                <td>="Default"</td>
+                <td>Default</td>
+                <td>Pitsinos George</td>
+                <td>537534XXXXXX8405</td>
+                <td>Mastercard</td>
+                <td>124,00</td>
+                <td>=""</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>Public Api</td>
+                <td>Επιτυχημένη</td>
+                <td>Χρέωση Κάρτας</td>
+                <td></td>
+                <td>4/1/2021</td>
+                <td>118,79</td>
+                <td>2,23</td>
+                <td>0,19</td>
+                <td>2,79</td>
+                <td>0,00</td>
+                <td>="80000000"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
