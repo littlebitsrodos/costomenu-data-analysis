@@ -1,10 +1,6 @@
-streamlit
+flask
 pandas
 plotly
-openpyxl
-
-crisp-api
-python-dotenv
-
-textblob
-pytz
+numpy
+flake8
+black
